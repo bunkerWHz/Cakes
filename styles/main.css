@@ -17,7 +17,8 @@ body {
   padding: 0 20px;
   background: url(/img/фото_торта.png) no-repeat;
   background-color: #fbebea;
-  background-position-y: -166px; }
+  background-position-y: -166px;
+  background-position-x: 50%; }
 
 .container {
   min-width: 280px;
