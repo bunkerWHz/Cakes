@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cakes!</title>
+</head>
+
+<body>
+
+    <header class="main-nav">
+        <div class="container">
+            <span class="main-nav__logo">Cakes</span>
+            <nav class="main-nav__nav">
+                <ul class="nav_items">
+                    <li class="nav__item">Наши торты</li>
+                    <li class="nav__item">Индивидуальный заказ</li>
+                    <li class="nav__item">Отзывы</li>
+                    <li class="nav__item">О нас</li>
+                    <li class="nav__item">Как заказать</li>
+                    <li class="nav__item">Контакты</li>
+                </ul>
+                <a href="tel:79068999296" class="main-nav__phone">+7 906 899 92 96</a>
+            </nav>
+            <h1 class="header__title">Торты на заказ</h1>
+            <h2 class="header__desc">Ручная работа</h2>
+            <ul>
+                <li class=""><i class="feature__img"></i><span class="feature__text">Натуральные ингредиенты</span></li>
+                <li class=""><i class="feature__img"></i><span class="feature__text">Доставка бесплатно при заказе от
+                        2000 рублей*</span></li>
+            </ul>
+            <button main-nav__btn btn>Выбрать торт</button>
+        </div>
+    </header>
+    <section class="products">
+        <div class="container">
+            <h1 class="products__title">Наши торты</h1>
+            <div class="products__cards">
+                <figure class="card">
+                    <img src="" alt="">
+                    <figcaption class="card__title">Классические</figcaption>
+                    <figcaption class="card__count">24 вида</figcaption>
+                    <a class="card__link" href="1"></a>
+                </figure>
+                <figure class="card">
+                    <img src="" alt="">
+                    <figcaption class="card__title">Муссовые</figcaption>
+                    <figcaption class="card__count">12 видов</figcaption>
+                    <a class="card__link" href="2"></a>
+                </figure>
+                <figure class="card">
+                    <img src="" alt="">
+                    <figcaption class="card__title">Свадебные</figcaption>
+                    <figcaption class="card__count">20 видов</figcaption>
+                    <a class="card__link" href="3"></a>
+                </figure>
+                <figure class="card">
+                    <img src="" alt="">
+                    <figcaption class="card__title">Мужчинам</figcaption>
+                    <figcaption class="card__count">12 видов</figcaption>
+                    <a class="card__link" href="4"></a>
+                </figure>
+                <figure class="card">
+                    <img src="" alt="">
+                    <figcaption class="card__title">Женщинам</figcaption>
+                    <figcaption class="card__count">16 видов</figcaption>
+                    <a class="card__link" href="5"></a>
+                </figure>
+                <figure class="card">
+                    <img src="" alt="">
+                    <figcaption class="card__title">Детские</figcaption>
+                    <figcaption class="card__count">18 видов</figcaption>
+                    <a class="card__link" href="6"></a>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+    <section class="personal-order">
+        <div class="container">
+            <h1 class="personal-order__title">Индивидуальный заказ</h1>
+            <h2 class="personal-order__desc">Соберите торт в 3 шага</h2>
+            <div class="builder__items">
+                <section class="builder__item">
+                    <div class="builder__wrapper">
+                        <span class="wrapper__order">01</span>
+                        <h2 class="wrapper__title">Выберите начинку</h2>
+                        <div class="slider__items">
+
+                            <article class="slider__item">
+                                <figure class="item">
+                                    <img src="/img/cakes/" alt="cake" class="item__img--1">
+                                    <figcaption class=""><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
+                                </figure>
+                                <h2 class="item__title">Шоколадный ганаш</h2>
+                                <p class="item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
+                                    шоколадный из всех возможных десертов!</p>
+                                <span class="item__price">1000 руб/кг</span>
+                                <button class="item__order btn">Выбрать</button>
+                            </article>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="builder__item">
+                    <span class="wrapper__order">02</span>
+                    <h2 class="wrapper__title">Размер</h2>
+                    <form class="size__items">
+
+                        <div class="size__item">
+                            <label for="size--1" class="size__weight">
+                                <input type="radio" name="size" value="1">1 кг</label>
+                            <span class="diam">17-18 см</span>
+                            <span class="count">(1 кг – 6 персон)</span>
+                        </div>
+                        <button class="item__order btn">Выбрать</button>
+                    </form>
+                </section>
+                <section class="builder__item">
+                    <span class="wrapper__order">03</span>
+                    <h2 class="wrapper__title">Оформление</h2>
+
+                    <div class="slider__items">
+
+                        <article class="slider__item">
+                            <figure class="item">
+                                <img src="/img/cakes/" alt="cake" class="item__img--1">
+                                <figcaption class=""><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
+                            </figure>
+                            <h2 class="item__title">Шоколадный ганаш</h2>
+                            <p class="item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
+                                шоколадный из всех возможных десертов!</p>
+                            <span class="item__price">1000 руб/кг</span>
+                            <button class="item__order btn">Выбрать</button>
+                        </article>
+                </section>
+                <h1 class="choice__title">Ваш выбор</h1>
+                <form action="/get">
+                    <label for="">Начинка<input type="text">Шоколадный ганаш</label>
+                    <label for="">Размер<input type="text"></label>
+                    <label for="">Оформление<input type="text"></label>
+                    <button type="submit" class="btn">заказать торт</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="feedbacks">
+        <h1 class="feedbacks__title">Отзывы</h1>
+        <div class="feedback">
+            <img src="" alt="" class="feedback__img">
+            <span class="feedback__name"></span>
+            <span class="feedback__prof"></span>
+            <p class="feedback__context"><a href="" class="feedback__link"></a></p>
+            <span class="current-item">1</span>/<span class="last-item">26</span>
+        </div>
+    </section>
+    <section class="about">
+        <h1 class="about__title">О нас</h1>
+        <div class="about__img"><img src="" alt="" class="person-photo"></div>
+        <div class="about__socials">
+            <i class="social__icon--1"></i>
+            <i class="social__icon--2"></i>
+            <i class="social__icon--3"></i>
+        </div>
+        <div class="about__person">
+            <h2 class="person__title">О кондитере</h2>
+            <p class="hightlight">Кондитер – как призвание</p>
+            <p class="person__text">Павел — профессиональный повар в различных гастрономических областях, но
+                однажды его сердце покорило кондитерское искусство.С ранних лет он увлекался утонченным мастерством и
+                обратился к своим талантам как кондитер.</p>
+            <p class="hightlight">Принцип – натуральные ингредиенты </p>
+            <p class="person__text">Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает
+                качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.</p>
+        </div>
+        <div class="about__quote">
+            <i class="quote"></i>
+            <p class="quote__text">Я за простые рецепты. В Италии это называют cucina povera: когда обычные
+                ингредиенты превращаются в божественное блюдо.</p>
+            <i class="quote__signature"></i>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <h1 class="advantages__title">Наши преимущества</h1>
+            <h2 class="advantages__desc">Почему нас выбирают ?</h2>
+            <img src="" alt="bowl" class="advantages__img--front">
+            <ul class="advantages__items">
+                <li class="advantages__item">
+                    <i class="item__img"></i>
+                    <p class="item__title"></p>
+                    <p class="item__text"></p>
+                </li>
+                <li class="advantages__item">
+                    <i class="item__img"></i>
+                    <p class="item__title"></p>
+                    <p class="item__text"></p>
+                </li>
+            </ul>
+            <h1 class="advantages__care-title">Забота о клиентах</h1>
+            <h2 class="advantages__care-desc"> Для нас важно</h2>
+            <p class="advantages__care-contnet">Нам важно чтобы каждый торт был безупречным, как внутри, так и снаружи, чтобы он был создан исключительно 
+                для вас и для вашего события.</p>
+            <img src="" alt="cake" class="advantages__img--back">
+        </div>
+    </section>
+    <section class="order">
+        <div class="container">
+               <img src="" alt="gift" class="order__img">
+                <ul class="oder__steps">
+                    <h1 class="order__title">Как заказать</h1>
+                    <li class="order__step">
+                        <span>1</span>
+                        <p>Срок заказа</p>
+                        <p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p>
+                    </li>
+                    <li class="order__step">
+                        <span>2</span>
+                        <p>Доставка по городу</p>
+                        <p>Доставка в пределах города 200 рубей , при заказе на сумму более 2000 доставка бесплатно.</p>
+                    </li>
+                    <li class="order__step">
+                        <span>3</span>
+                        <p>Доставка за городом</p>
+                        <p>Доставка за пределами города рассчитывается индивидуально.</p>
+                    </li>
+                </ul>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <h1 class="contacts__title">Контакты</h1>
+            <h2 class="contancts__desc">Остались вопросы?</h2>
+            <form action="/contacts" class="contacts__form" method="POST"> 
+                <label>Заполните форму ниже и наш кондитер свяжется с Вами</label>
+                <input type="text" class="contacts__name">
+                <input type="email" class="contacts__email">
+                <textarea name="question" rows=''3'' class="contacts__question"></textarea>
+                <button class="contacts__submit btn">Отправить</button>
+             </form>
+             <div class="contacts__links">
+                <p class="contacts__link">Или позвоните по телефону:<br>+7 906 899 92 96</p>
+                <p class="contacts__link">Наша почта : bakerybypavel@mail.ru</p>
+                <p class="contacts__link">Мы в соц. сетях:</p>
+                <ul class="contacts__socials">
+                    <li class="contacts__social contacts__social--inst"></li>
+                    <li class="contacts__social contacts__social--vk"></li>
+                </ul>
+             </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+                <span class="main-nav__logo">Cakes</span>
+                <nav class="main-nav__nav">
+                    <ul class="nav_items">
+                        <li class="nav__item">Наши торты</li>
+                        <li class="nav__item">Индивидуальный заказ</li>
+                        <li class="nav__item">Отзывы</li>
+                        <li class="nav__item">О нас</li>
+                        <li class="nav__item">Как заказать</li>
+                        <li class="nav__item">Контакты</li>
+                    </ul>
+                    <a href="tel:79068999296" class="main-nav__phone">+7 906 899 92 96</a>
+                </nav>
+                <ul class="footer__socials">
+                        <li class="footer__social footer__social--inst"></li>
+                        <li class="footer__social footer__social--vk"></li>
+                </ul>
+                <p class="footer__copyrights">©  2018 Cakes</p>
+        </div>
+    </section>
+</body>
+
+</html>
