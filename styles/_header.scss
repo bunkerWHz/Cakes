@@ -1,0 +1,143 @@
+
+.main-nav{
+    padding: 0 20px;
+        background: url(/img/фото_торта.png) no-repeat;
+        background-color: #fbebea;
+        background-position-y: -166px;
+
+}
+.container {
+    min-width: 280px;
+    text-align: center;
+}
+.main-nav__nav {
+    height: 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.main-nav__logo {
+color: #000000;
+font-family: "Playfair Display";
+font-size: 16px;
+font-weight: 700;
+line-height: 32.69px;
+letter-spacing: 0.24px;
+}
+.nav__items {
+    display: none;
+    list-style: none;
+}
+.nav__item {
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    width: 320px;
+    height: 40px;
+    background-color: #e7e7e7;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 17px 0 14px 0;
+}
+.nav__item-link {
+    text-decoration: none;
+    color: #383838;
+    font-family: Circe;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.main-nav__btn {
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    &:active {
+        .nav__items {
+            display: block;
+        }
+    }
+}
+.hamberger {
+display: inline-block;
+width: 18px;
+height: 2px;
+border-radius: 1px;
+background-color: #000000;
+position: absolute;
+top: 50%;
+
+}
+
+.main-nav__phone {
+    display: none;
+}
+.header__title {
+text-align: center;
+color: #2d2829;
+font-family: "Playfair Display";
+font-size: 40px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.22px;
+}
+.header__desc {
+text-align: center;
+color: #32313d;
+font-family: "Intro Script R - H2 Base";
+font-size: 22px;
+font-weight: 400;
+line-height: 77.95px;
+}
+.header__features {
+    list-style: none;
+}
+.feature__text {
+color: #000000;
+font-family: Circe;
+font-size: 14px;
+font-weight: 400;
+vertical-align: top;
+}
+.header__feature{
+    text-align: left;
+    height: 33px;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    &:last-child {
+        margin-bottom: 42px;
+    }
+}
+.feature__img--ingr {
+    display: block;
+    float: left;
+width: 33px;
+height: 33px;
+    background: url(/img/иконка_ингредиенты.png);
+        margin-right: 9px;
+}
+.feature__img--gift {
+    display: block;
+    float: left;
+width: 33px;
+height: 32px;
+background: url(/img/иконка_доставка.svg);
+margin-right: 10px;
+}
+.btn {
+display: inline-block;
+border-radius: 26px;
+text-align: center;
+background-color: #f50049;
+color: #ffffff;
+font-family: Circe;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+padding: 21px 65px;
+height: auto;
+width: auto;
+}
+.main-nav__btn {
+    margin-bottom: 53px;
+}

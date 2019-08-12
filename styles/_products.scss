@@ -1,0 +1,54 @@
+.products {
+    background-color: #fbebea;
+}
+.products__title {
+    text-align: center;
+    color: #2d2829;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    margin-bottom: 32px;
+    }
+ .products__desc {
+    text-align: center;
+    color: #32313d;
+    font-family: "Intro Script R - H2 Base";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 77.95px;
+    }
+    .products__cards {
+        list-style: none;
+    }
+    .card{
+        display: inline-block;
+        width: 280px;
+        height: 120px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .card__link {
+        text-decoration: none;
+    }
+    .card__title {
+    color: #2d2829;
+    font-family: Circe;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    }
+.card__count {
+    position: absolute;
+    opacity: 0.7;
+    color: #2d2829;
+    font-family: Circe;
+    font-size: 12px;
+    font-weight: 400;
+    top: 31px;
+    left: 13px;
+    }

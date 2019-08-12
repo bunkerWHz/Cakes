@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Circe;
+    src: url(/fonts/Circe-Bold.woff);
+  }
+  @font-face {
+    font-family: "Intro Script R - H2 Base";
+    src: url(/fonts/rh2.otf);
+  }
+
+@import "norm.css";
+body {
+    min-width: 320px;
+    box-sizing: border-box;
+    background-color: #fbebea;
+}
+
+
+
+@import "header.scss";
+@import "products.scss"

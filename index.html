@@ -6,75 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cakes!</title>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "/styles/main.css" />
 </head>
 
 <body>
 
     <header class="main-nav">
         <div class="container">
-            <span class="main-nav__logo">Cakes</span>
+      
             <nav class="main-nav__nav">
-                <ul class="nav_items">
-                    <li class="nav__item">Наши торты</li>
-                    <li class="nav__item">Индивидуальный заказ</li>
-                    <li class="nav__item">Отзывы</li>
-                    <li class="nav__item">О нас</li>
-                    <li class="nav__item">Как заказать</li>
-                    <li class="nav__item">Контакты</li>
+                <span class="main-nav__logo">Cakes</span>
+                <button type="button" class="main-nav__btn"><span class="hamburger"></span></button>
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#" class="nav__item-link">Наши торты</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">Индивидуальный заказ</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">Отзывы</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">О нас</a></li>      
+                    <li class="nav__item"><a href="#" class="nav__item-link">Как заказать</a></li>
+                    <li class="nav__item"><a href="#" class="nav__item-link">Контакты</a></li>
                 </ul>
                 <a href="tel:79068999296" class="main-nav__phone">+7 906 899 92 96</a>
             </nav>
-            <h1 class="header__title">Торты на заказ</h1>
+            <h1 class="header__title">Торты<br> на заказ</h1>
             <h2 class="header__desc">Ручная работа</h2>
-            <ul>
-                <li class=""><i class="feature__img"></i><span class="feature__text">Натуральные ингредиенты</span></li>
-                <li class=""><i class="feature__img"></i><span class="feature__text">Доставка бесплатно при заказе от
-                        2000 рублей*</span></li>
+            <ul class="header__features">
+                <li class="header__feature"><i class="feature__img feature__img--ingr"></i><span class="feature__text">Натуральные ингредиенты</span></li>
+                <li class="header__feature"><i class="feature__img feature__img--gift"></i><span class="feature__text">Доставка бесплатно при заказе от 2000 рублей*</span></li>
             </ul>
-            <button main-nav__btn btn>Выбрать торт</button>
+            <button class="main-nav__btn btn">Выбрать торт</button>
         </div>
     </header>
     <section class="products">
         <div class="container">
             <h1 class="products__title">Наши торты</h1>
-            <div class="products__cards">
-                <figure class="card">
-                    <img src="" alt="">
-                    <figcaption class="card__title">Классические</figcaption>
-                    <figcaption class="card__count">24 вида</figcaption>
-                    <a class="card__link" href="1"></a>
+            <ul class="products__cards">
+                <li class="card">
+                        <article class="">
+                            <a class="card__link" href="1">
+                                <img src="/img/Классические_фото.jpg" alt="Классические " class="card__img">
+                                <figcaption class="card__title">Классические</figcaption>
+                                <figcaption class="card__count">24 вида</figcaption>
+                            </a>
+                        </article>
+                </li>
+               <li class="card">
+                    <article class="card">
+                        <a class="card__link" href="2">
+                            <img src="img/Муссовые_фото.jpg" alt="Муссовые" class="card__img">
+                            <figcaption class="card__title">Муссовые</figcaption>
+                            <figcaption class="card__count">12 видов</figcaption>
+                            </a>
+                    </article>
+               </li>
+                <li class="card">
+                        <article class="card">
+                            <a class="card__link" href="3">
+                                <img src="/img/свадебные_фото1.jpg" alt="Свадебные" class="card__img">
+                                <figcaption class="card__title">Свадебные</figcaption>
+                                <figcaption class="card__count">20 видов</figcaption>
+                                </a>
+                                </article>
+                </li>
+                
                 </figure>
-                <figure class="card">
-                    <img src="" alt="">
-                    <figcaption class="card__title">Муссовые</figcaption>
-                    <figcaption class="card__count">12 видов</figcaption>
-                    <a class="card__link" href="2"></a>
-                </figure>
-                <figure class="card">
-                    <img src="" alt="">
-                    <figcaption class="card__title">Свадебные</figcaption>
-                    <figcaption class="card__count">20 видов</figcaption>
-                    <a class="card__link" href="3"></a>
-                </figure>
-                <figure class="card">
-                    <img src="" alt="">
-                    <figcaption class="card__title">Мужчинам</figcaption>
-                    <figcaption class="card__count">12 видов</figcaption>
-                    <a class="card__link" href="4"></a>
-                </figure>
-                <figure class="card">
-                    <img src="" alt="">
-                    <figcaption class="card__title">Женщинам</figcaption>
-                    <figcaption class="card__count">16 видов</figcaption>
-                    <a class="card__link" href="5"></a>
-                </figure>
-                <figure class="card">
-                    <img src="" alt="">
-                    <figcaption class="card__title">Детские</figcaption>
-                    <figcaption class="card__count">18 видов</figcaption>
-                    <a class="card__link" href="6"></a>
-                </figure>
-            </div>
+                <li class="card">
+                        <article class="card">
+                                <a class="card__link" href="4">
+                                <img src="/img/мужчинам_фото.jpg" alt="Мужчинам" class="card__img">
+                                <figcaption class="card__title">Мужчинам</figcaption>
+                                <figcaption class="card__count">12 видов</figcaption>
+                                </a>
+                        </article>
+                </li>
+               <li class="card">
+                    <article class="card">
+                            <a class="card__link" href="5">
+                            <img src="/img/женищнам_фото.jpg" alt="Женщинам" class="card__img">
+                            <figcaption class="card__title">Женщинам</figcaption>
+                            <figcaption class="card__count">16 видов</figcaption>
+                           </a>
+                    </article>
+               </li>
+                <li class="card">
+                        <article class="card">
+                                <a class="card__link" href="6">
+                                <img src="/img/детские_фото.jpg" alt="Детские" class="card__img">
+                                <figcaption class="card__title">Детские</figcaption>
+                                <figcaption class="card__count">18 видов</figcaption>
+                                </a>
+                        </article>
+                </li>
+               
+            </ul>
         </div>
 
     </section>
@@ -236,7 +261,7 @@
                 <label>Заполните форму ниже и наш кондитер свяжется с Вами</label>
                 <input type="text" class="contacts__name">
                 <input type="email" class="contacts__email">
-                <textarea name="question" rows=''3'' class="contacts__question"></textarea>
+                <textarea name="question" rows="3" class="contacts__question"></textarea>
                 <button class="contacts__submit btn">Отправить</button>
              </form>
              <div class="contacts__links">
