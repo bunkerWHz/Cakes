@@ -9,6 +9,7 @@
     <link rel = "stylesheet"
     type = "text/css"
     href = "/styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
@@ -103,72 +104,83 @@
     </section>
     <section class="personal-order">
         <div class="container">
-            <h1 class="personal-order__title">Индивидуальный заказ</h1>
-            <h2 class="personal-order__desc">Соберите торт в 3 шага</h2>
-            <div class="builder__items">
-                <section class="builder__item">
-                    <div class="builder__wrapper">
-                        <span class="wrapper__order">01</span>
-                        <h2 class="wrapper__title">Выберите начинку</h2>
-                        <div class="slider__items">
+            <div class="insides">
+                    <h1 class="personal-order__title">Индивидуальный<br> заказ</h1>
+                    <h2 class="personal-order__desc">Соберите торт в 3 шага</h2>
+                    <div class="builder__items">
+                        <section class="builder__item">
+                            <div class="builder__wrapper">
+                                <span class="wrapper__order">01</span>
+                                <h2 class="wrapper__title">Выберите начинку</h2>
+                                <div class="slider__items">
+        
+                                    <article class="slider__item slider__item--active">
+                                        <figure class="item">
+                                            <img src="/img/фото_начинки.png" alt="cake" class="item__img">
+                                            <figcaption class="item__count"><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
+                                        </figure>
+                                        <h2 class="item__title">Шоколадный ганаш</h2>
+                                        <p class="item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
+                                            шоколадный из всех возможных десертов!</p>
+                                        <span class="item__price">1000 руб/кг</span>
+                                    </article>
+        
+                                </div>
+                                <button type="button" class="item__order-btn btn">Выбрать</button>
 
-                            <article class="slider__item">
-                                <figure class="item">
-                                    <img src="/img/cakes/" alt="cake" class="item__img--1">
-                                    <figcaption class=""><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
-                                </figure>
-                                <h2 class="item__title">Шоколадный ганаш</h2>
-                                <p class="item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
-                                    шоколадный из всех возможных десертов!</p>
-                                <span class="item__price">1000 руб/кг</span>
-                                <button class="item__order btn">Выбрать</button>
-                            </article>
+                            </div>
+                        </section>
+            </div>
+            </div>
+            <section class="cake__sizes">
+                <span class="wrapper__order">02</span>
+                <h2 class="wrapper__title">Размер</h2>
+                <div class="size__items slider__items">
 
-                        </div>
-                    </div>
-                </section>
-                <section class="builder__item">
-                    <span class="wrapper__order">02</span>
-                    <h2 class="wrapper__title">Размер</h2>
-                    <form class="size__items">
+                        <article class="slider__item slider__item--active">
+                            <figure class="size-item">
+                                    <img class="size-item__img" src="/img/круг1.svg" alt="форма круг">
+                                  <figcaption><span class="size-item__weight">1 кг</span></figcaption> 
+                            </figure>
+                            
+                            <p class="size-item__definition">17-18 см<br>(1 кг – 6 персон)</p>
+                        </article>
+                    <button class="size-item-btn btn">Выбрать</button>
+                </div>
+            </section>
 
-                        <div class="size__item">
-                            <label for="size--1" class="size__weight">
-                                <input type="radio" name="size" value="1">1 кг</label>
-                            <span class="diam">17-18 см</span>
-                            <span class="count">(1 кг – 6 персон)</span>
-                        </div>
-                        <button class="item__order btn">Выбрать</button>
-                    </form>
-                </section>
-                <section class="builder__item">
+                <section class="topings">
                     <span class="wrapper__order">03</span>
                     <h2 class="wrapper__title">Оформление</h2>
 
-                    <div class="slider__items">
-
-                        <article class="slider__item">
-                            <figure class="item">
-                                <img src="/img/cakes/" alt="cake" class="item__img--1">
-                                <figcaption class=""><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
+                    <div class="topings__items slider__items">
+                        <article class="topoings_item slider__item slider__item--active">
+                            <figure class="toping">
+                                <img src="/img/фото_торта1.jpg" alt="cake" class="topoing__img topoings__img--active">
+                                <figcaption class="toping__count"><span class="toping-current-item">1</span>/<span class="toping-last-item">35</span></figcaption>
                             </figure>
-                            <h2 class="item__title">Шоколадный ганаш</h2>
-                            <p class="item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
-                                шоколадный из всех возможных десертов!</p>
-                            <span class="item__price">1000 руб/кг</span>
-                            <button class="item__order btn">Выбрать</button>
+                            <h2 class="toping__title">Маршмэллоу</h2>
+                            <span class="toping__price">600 руб/кг</span>
                         </article>
+                     </div>
+                    <button class="topings-btn btn">Выбрать</button>
                 </section>
+                <section class="choice">
                 <h1 class="choice__title">Ваш выбор</h1>
-                <form action="/get">
-                    <label for="">Начинка<input type="text">Шоколадный ганаш</label>
-                    <label for="">Размер<input type="text"></label>
-                    <label for="">Оформление<input type="text"></label>
-                    <button type="submit" class="btn">заказать торт</button>
-                </form>
-            </div>
+                <ul class="choice__results">
+                    <li class="choice__result"><h3 class="result__title">Начинка</h3>
+                        <p class="result__type">Шоколадный ганаш</p></li>
+                    <li class="choice__result"><h3 class="result__title">Размер</h3>
+                        <p class="result__type">1 кг</p></li>
+                    <li class="choice__result"><h3 class="result__title">Оформление</h3>
+                        <p class="result__type">Маршмэллоу</p></li>
+                </ul>
+    
+                    <button type="submit" class="choice-btn btn">заказать торт</button>
+                </section>
         </div>
     </section>
+    
     <section class="feedbacks">
         <h1 class="feedbacks__title">Отзывы</h1>
         <div class="feedback">

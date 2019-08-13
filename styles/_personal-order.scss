@@ -1,0 +1,112 @@
+    .container {
+        min-width: 280px;
+    }
+.personal-order {
+    background-color: #fbebea;
+    padding: 0 20px;
+}
+.personal-order__title {
+    text-align: center;
+    color: #2d2829;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+ .personal-order__desc {
+    text-align: center;
+    color: #32313d;
+    font-family: "Intro Script R - H2 Base";
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 19px;
+}
+.builder-item {
+        min-height: 430px;
+        background-color: #fff;
+}
+.builder__wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.wrapper__order {
+    color: #f50049;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+}
+.wrapper__title {
+color: #f50049;
+font-family: 'Playfair Display', serif;
+font-size: 16px;
+font-weight: 700;
+display: inline-block;
+}
+.slider__items {
+    background-color: #fff;
+}
+.slider__item {
+    display: none;
+    &--active {
+        display: initial;
+    }
+}
+.item {
+    width: 241px;
+    height: 113px;
+    background-color: #fbebea;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.item__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+.item__count {
+    position: absolute;
+    bottom: 6px;
+    right: 7px;
+    color: #ffffff;
+    font-family: Circe;
+    font-size: 12px;
+    font-weight: 400;
+}
+.item__title {
+    text-align: left;
+color: #2f2f2f;
+font-family: Circe;
+font-size: 16px;
+font-weight: 700;
+}
+.item__desc {
+text-align: left;
+color: #2f2f2f;
+font-family: Circe;
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 17px;
+}
+.item__price {
+color: #2f2f2f;
+font-family: 'Playfair Display', serif;
+font-size: 18px;
+font-weight: 700;
+display: block;
+}
+.item__order-btn {
+    border: none;
+    margin: 0 auto;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+.insides {
+    margin-bottom: 10px;
+}

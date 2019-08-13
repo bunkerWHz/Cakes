@@ -6,7 +6,6 @@
     font-family: "Intro Script R - H2 Base";
     src: url(/fonts/rh2.otf);
   }
-
 @import "norm.css";
 body {
     min-width: 320px;
@@ -19,3 +18,5 @@ body {
 @import "header.scss";
 @import "products.scss";
 @import "personal-order.scss";
+@import "cake-sizes.scss";
+@import "topingsChoice.scss";

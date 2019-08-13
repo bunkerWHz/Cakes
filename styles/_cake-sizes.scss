@@ -1,0 +1,31 @@
+.cake__sizes {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.size-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+.size-item__img {
+    margin: 0 auto;
+    display: block;
+}
+.size-item__weight {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    font-family: Circe;
+    font-size: 16px;
+    font-weight: 400;
+}
+.size-item__definition {
+    opacity: 0.8;
+    color: #2f2f2f;
+    font-family: Circe;
+    font-size: 14px;
+    font-weight: 400;
+}
+.size-item-btn {
+    margin-top: 57px;
+    margin-bottom: 26px;
+}
