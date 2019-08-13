@@ -700,3 +700,61 @@ body {
 
 .order__img {
   width: 100%; }
+
+.contacts__title {
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700; }
+
+.contacts__desc {
+  color: #32313d;
+  font-family: "Intro Script R - H2 Base";
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left; }
+
+.contacts__form-label {
+  color: #000000;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+  display: block; }
+
+.contacts__form-name {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: none;
+  color: #e0e0e0;
+  padding: 18px 0 21px 11px;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+
+.contacts__form-email {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: none;
+  color: #e0e0e0;
+  padding: 18px 0 21px 11px;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+
+.contacts__form-question {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: none;
+  color: #e0e0e0;
+  padding: 18px 0 21px 11px;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px; }

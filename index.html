@@ -275,12 +275,12 @@
     <section class="contacts">
         <div class="container">
             <h1 class="contacts__title">Контакты</h1>
-            <h2 class="contancts__desc">Остались вопросы?</h2>
+            <h2 class="contacts__desc">Остались вопросы?</h2>
             <form action="/contacts" class="contacts__form" method="POST"> 
-                <label>Заполните форму ниже и наш кондитер свяжется с Вами</label>
-                <input type="text" class="contacts__name">
-                <input type="email" class="contacts__email">
-                <textarea name="question" rows="3" class="contacts__question"></textarea>
+                <label class="contacts__form-label">Заполните форму ниже и наш кондитер свяжется с Вами</label>
+                <input type="text" class="contacts__form-name" placeholder="Ваше имя">
+                <input type="email" class="contacts__form-email" placeholder="Email адрес">
+                <textarea name="question" rows="3" class="contacts__form-question" placeholder="Ваш вопрос"></textarea>
                 <button class="contacts__submit btn">Отправить</button>
              </form>
              <div class="contacts__links">
