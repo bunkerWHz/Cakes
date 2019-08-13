@@ -1,6 +1,6 @@
 @font-face {
     font-family: Circe;
-    src: url(/fonts/Circe-Bold.woff);
+    src: url(/fonts/Circe-Regular.woff);
   }
   @font-face {
     font-family: "Intro Script R - H2 Base";
@@ -20,3 +20,4 @@ body {
 @import "personal-order.scss";
 @import "cake-sizes.scss";
 @import "topingsChoice.scss";
+@import "feedbacks.scss";

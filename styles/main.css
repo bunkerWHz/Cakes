@@ -2,7 +2,7 @@
 @import url(norm.css);
 @font-face {
   font-family: Circe;
-  src: url(/fonts/Circe-Bold.woff); }
+  src: url(/fonts/Circe-Regular.woff); }
 
 @font-face {
   font-family: "Intro Script R - H2 Base";
@@ -208,7 +208,8 @@ body {
 
 .personal-order {
   background-color: #fbebea;
-  padding: 0 20px; }
+  padding: 0 20px;
+  margin-bottom: 38px; }
 
 .personal-order__title {
   text-align: center;
@@ -415,3 +416,142 @@ body {
 
 .choice-btn {
   margin: 30px auto 34px; }
+
+.feedbacks {
+  text-align: center; }
+
+.feedbacks__title {
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700; }
+
+.feedback {
+  position: relative; }
+
+.feedback__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 7px; }
+
+.feedback__name {
+  color: #2d2829;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto; }
+
+.feedback__prof {
+  color: #2d2829;
+  font-family: Circe;
+  font-size: 12px;
+  margin-bottom: 7px; }
+
+.feedback__link {
+  color: #f77b91;
+  font-style: italic; }
+
+.feedback__context {
+  text-align: center;
+  color: #2d2829;
+  font-family: Circe;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 40px;
+  box-sizing: border-box;
+  margin: 0px;
+  margin-bottom: 70px; }
+
+.feedback__count {
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+  opacity: 0.7;
+  color: #f50049;
+  font-family: Circe;
+  font-size: 12px;
+  font-weight: 400; }
+
+.about {
+  text-align: center;
+  padding: 0 20px; }
+
+.about__title {
+  margin: 0;
+  margin-bottom: 27px;
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700; }
+
+.about__quote {
+  margin-top: 74px;
+  position: relative; }
+
+.social__icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px; }
+  .social__icon--inst {
+    background: url(/img/инстаграм_иконка_.png) no-repeat 50% 50%, url(/img/background.svg); }
+  .social__icon--vk {
+    background: url(/img/вконтакте_иконка.png) no-repeat 50% 50%, url(/img/background.svg); }
+  .social__icon--tw {
+    background: url(/img/твиттер_иконка.png) no-repeat 50% 50%, url(/img/background.svg); }
+
+.person-photo {
+  margin-right: 34px; }
+
+.social__link {
+  margin-bottom: 15px; }
+
+.about__person {
+  text-align: left; }
+
+.about__socials {
+  display: flex; }
+
+.social__links {
+  display: flex;
+  flex-direction: column; }
+
+.person__title {
+  color: #32313d;
+  font-family: "Intro Script R - H2 Base";
+  font-size: 22px;
+  font-weight: 400; }
+
+.person__hightlight {
+  color: #2d2829;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: bold; }
+
+.person__text {
+  color: #2d2829;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 400; }
+
+.quote__icon {
+  color: #fffefe;
+  font-family: "Playfair Display";
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  position: absolute;
+  top: -50px; }
+
+.quote__text {
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic; }
+
+.quote__signature {
+  width: 64px;
+  height: 31px;
+  display: inline-block;
+  background: url(/img/роспись.png) no-repeat; }
