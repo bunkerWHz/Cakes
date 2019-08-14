@@ -14,6 +14,8 @@
 
 body {
   min-width: 320px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   background-color: #fbebea; }
 
@@ -26,7 +28,8 @@ body {
 
 .container {
   min-width: 280px;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
 .main-nav__nav {
   height: 40px;
@@ -43,7 +46,9 @@ body {
 
 .nav__items {
   display: none;
-  list-style: none; }
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
 .nav__item {
   box-sizing: border-box;
@@ -103,7 +108,9 @@ body {
   line-height: 77.95px; }
 
 .header__features {
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
 .feature__text {
   color: #000000;
@@ -163,8 +170,6 @@ body {
   font-family: "Playfair Display";
   font-size: 40px;
   font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.22px;
   margin-bottom: 32px; }
 
 .products__desc {
@@ -175,7 +180,9 @@ body {
   font-weight: 400; }
 
 .products__cards {
-  list-style: none; }
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
 .card {
   display: inline-block;
@@ -212,7 +219,6 @@ body {
 
 .personal-order {
   background-color: #fbebea;
-  padding: 0 20px;
   margin-bottom: 38px; }
 
 .personal-order__title {
@@ -478,7 +484,8 @@ body {
   font-weight: 400; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  padding: 0 20px; }
 
 .about__title {
   margin: 0;
@@ -513,7 +520,10 @@ body {
   text-align: left; }
 
 .about__socials {
-  display: flex; }
+  margin: 0 auto;
+  display: flex;
+  width: 280px;
+  box-sizing: border-box; }
 
 .social__links {
   display: flex;
@@ -559,9 +569,6 @@ body {
   display: inline-block;
   background: url(/img/роспись.png) no-repeat; }
 
-.container {
-  padding: 0  20px; }
-
 .advantages__title {
   color: #2d2829;
   font-family: "Playfair Display", serif;
@@ -569,7 +576,8 @@ body {
   font-weight: 700; }
 
 .advantages {
-  position: relative; }
+  position: relative;
+  padding: 0 20px; }
 
 .advantages__desc {
   color: #32313d;
@@ -705,6 +713,9 @@ body {
 .order__img {
   width: 100%; }
 
+.contacts {
+  padding: 0 20px; }
+
 .contacts__title {
   color: #2d2829;
   font-family: "Playfair Display";
@@ -796,7 +807,7 @@ body {
     background: #fff url(/img/вконтакте_иконка_42.png) no-repeat 50% 50%; }
 
 .footer {
-  padding: 45px 0 5px;
+  padding: 45px 20px 5px;
   background-color: #898989; }
 
 .footer-nav__logo {

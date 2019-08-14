@@ -1,15 +1,15 @@
 
 .main-nav{
-    padding: 0 20px;
+        padding: 0 20px;
         background: url(/img/фото_торта.png) no-repeat;
         background-color: #fbebea;
         background-position-y: -166px;
         background-position-x: 50%;
-
 }
 .container {
     min-width: 280px;
     text-align: center;
+    margin: 0 auto;
 }
 .main-nav__nav {
     height: 40px;
@@ -27,6 +27,8 @@ letter-spacing: 0.24px;
 .nav__items {
     display: none;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .nav__item {
     box-sizing: border-box;
@@ -92,6 +94,8 @@ line-height: 77.95px;
 }
 .header__features {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .feature__text {
 color: #000000;

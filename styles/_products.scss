@@ -7,8 +7,6 @@
     font-family: "Playfair Display";
     font-size: 40px;
     font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.22px;
     margin-bottom: 32px;
     }
  .products__desc {
@@ -20,6 +18,8 @@
     }
     .products__cards {
         list-style: none;
+        padding: 0;
+        margin: 0;
     }
     .card{
         display: inline-block;
