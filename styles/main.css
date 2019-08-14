@@ -20,11 +20,12 @@ body {
   background-color: #fbebea; }
 
 .main-nav {
-  padding: 0 20px;
+  padding: 40px 20px 0;
   background: url(/img/фото_торта.png) no-repeat;
   background-color: #fbebea;
   background-position-y: -166px;
-  background-position-x: 50%; }
+  background-position-x: 50%;
+  position: relative; }
 
 .container {
   min-width: 280px;
@@ -32,6 +33,11 @@ body {
   margin: 0 auto; }
 
 .main-nav__nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px 0;
   height: 40px;
   background-color: #fff;
   box-sizing: border-box; }
@@ -41,8 +47,9 @@ body {
   font-family: "Playfair Display";
   font-size: 16px;
   font-weight: 700;
-  line-height: 32.69px;
-  letter-spacing: 0.24px; }
+  display: block;
+  float: left;
+  margin-right: auto; }
 
 .nav__items {
   display: none;
@@ -68,24 +75,16 @@ body {
   font-weight: 400;
   text-transform: uppercase; }
 
-.main-nav__btn {
-  box-sizing: border-box;
-  width: 18px;
-  height: 18px;
-  background-color: transparent;
-  border: none;
-  position: relative; }
-  .main-nav__btn:active .nav__items {
-    display: block; }
-
-.hamberger {
+.hamburger {
   display: inline-block;
   width: 18px;
   height: 2px;
   border-radius: 1px;
   background-color: #000000;
   position: absolute;
-  top: 50%; }
+  top: 50%;
+  left: 0;
+  box-shadow: 0px 5px #000000, 0px -5px #000000; }
 
 .main-nav__phone {
   display: none; }
@@ -95,17 +94,14 @@ body {
   color: #2d2829;
   font-family: "Playfair Display";
   font-size: 40px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.22px; }
+  font-weight: 700; }
 
 .header__desc {
   text-align: center;
   color: #32313d;
   font-family: "Intro Script R - H2 Base";
   font-size: 22px;
-  font-weight: 400;
-  line-height: 77.95px; }
+  font-weight: 400; }
 
 .header__features {
   list-style: none;
@@ -143,6 +139,18 @@ body {
   background: url(/img/иконка_доставка.svg);
   margin-right: 10px; }
 
+.main-nav__btn {
+  display: flex;
+  margin-left: auto;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: none;
+  position: relative; }
+  .main-nav__btn:active .nav__items {
+    display: initial; }
+
 .btn {
   display: inline-block;
   border: none;
@@ -157,9 +165,6 @@ body {
   padding: 21px 65px;
   height: auto;
   width: auto; }
-
-.main-nav__btn {
-  margin-bottom: 53px; }
 
 .products {
   background-color: #fbebea; }
@@ -654,6 +659,7 @@ body {
   margin-bottom: 173px; }
 
 .advantages__img--back {
+  max-width: 320px;
   position: absolute;
   bottom: -452px;
   left: calc(50% - 460px / 2);
