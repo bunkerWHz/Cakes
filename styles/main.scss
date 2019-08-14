@@ -6,6 +6,10 @@
     font-family: "Intro Script R - H2 Base";
     src: url(/fonts/rh2.otf);
   }
+  @font-face {
+      font-family: "Roboto";
+      src: url(/fonts/Roboto-Regular.ttf)
+  }
 @import "norm.css";
 body {
     min-width: 320px;
@@ -24,3 +28,4 @@ body {
 @import "advantages.scss";
 @import "order.scss";
 @import "contacts.scss";
+@import "footer.scss";
