@@ -758,3 +758,34 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px; }
+
+.contacts__submit-btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 21px 55px; }
+
+.contacts__links {
+  text-align: left; }
+
+.contacts__link {
+  color: #000000;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 600; }
+
+.contacts__socials {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0; }
+
+.contacts__social {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  margin-right: 30px;
+  display: inline-block; }
+  .contacts__social--inst {
+    background: #fff url(/img/инстаграм_иконка.png) no-repeat 50% 50%; }
+  .contacts__social--vk {
+    background: #fff url(/img/вконтакте_иконка_42.png) no-repeat 50% 50%; }
