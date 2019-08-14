@@ -204,7 +204,8 @@ body {
   .header__features {
     order: 2;
     flex-direction: row;
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 152px; }
   .header__feature {
     display: inline-block;
     width: 170px;
@@ -273,7 +274,8 @@ body {
     margin-bottom: 31px; } }
 
 .products {
-  background-color: #fbebea; }
+  background-color: #fbebea;
+  padding: 0 20px; }
 
 .products__title {
   text-align: center;
@@ -293,13 +295,15 @@ body {
 .products__cards {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: grid; }
 
 .card {
   display: inline-block;
   width: 280px;
   height: 120px;
   box-sizing: border-box;
+  margin: 0 auto;
   margin-bottom: 10px;
   position: relative; }
 
@@ -324,6 +328,22 @@ body {
   font-weight: 400;
   top: 31px;
   left: 13px; }
+
+@media screen and (min-width: 768px) {
+  .products {
+    padding: 0 46px; }
+  .products__title {
+    margin-top: 0;
+    text-align: left;
+    font-size: 28px; }
+  .products__cards {
+    grid-template-columns: 419px 288px;
+    grid-gap: 20px; }
+  .card {
+    width: auto; }
+  .card:nth-child(1) {
+    background: url(/img/768_Классические_фото.jpg) no-repeat;
+    grid-row: span 2; } }
 
 .container {
   min-width: 280px; }

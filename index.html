@@ -46,9 +46,13 @@
             <h1 class="products__title">Наши торты</h1>
             <ul class="products__cards">
                 <li class="card">
-                        <article class="">
+                        <article class="card">
                             <a class="card__link" href="1">
-                                <img src="/img/Классические_фото.jpg" alt="Классические " class="card__img">
+                                <picture>
+                                    <source srcset="/img/768_Классические_фото.jpg" media="(min-width: 768px)">
+                                        <img src="/img/Классические_фото.jpg" alt="Классические " class="card__img">
+                                </picture>
+                               
                                 <figcaption class="card__title">Классические</figcaption>
                                 <figcaption class="card__count">24 вида</figcaption>
                             </a>
