@@ -331,18 +331,25 @@ body {
 
 @media screen and (min-width: 768px) {
   .products {
-    padding: 0 46px; }
+    padding: 0 20px; }
   .products__title {
     margin-top: 0;
     text-align: left;
     font-size: 28px; }
   .products__cards {
-    grid-template-columns: 419px 288px;
-    grid-gap: 20px; }
+    grid-template-rows: repeat(2, 184px);
+    grid-template-columns: 419px 288px 288px 419px;
+    grid-gap: 20px;
+    width: 800px; }
   .card {
-    width: auto; }
-  .card:nth-child(1) {
-    background: url(/img/768_Классические_фото.jpg) no-repeat;
+    width: auto;
+    height: auto;
+    margin: 0; }
+  .products__card--6 {
+    grid-row: span 2;
+    grid-column-end: -1;
+    grid-row-start: 1; }
+  .products__card--1 {
     grid-row: span 2; } }
 
 .container {
