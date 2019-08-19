@@ -141,30 +141,42 @@
     <section class="personal-order">
         <div class="container">
             <div class="insides">
-                    <h1 class="personal-order__title">Индивидуальный<br> заказ</h1>
+                    <h1 class="personal-order__title">Индивидуальный<br class="mobile-divider"> заказ</h1>
                     <h2 class="personal-order__desc">Соберите торт в 3 шага</h2>
                     <div class="builder__items">
+
                         <section class="builder__item">
                             <div class="builder__wrapper">
-                                <span class="wrapper__order">01</span>
-                                <h2 class="wrapper__title">Выберите начинку</h2>
-                                <div class="slider__items">
-        
-                                    <article class="slider__item slider__item--active">
-                                        <figure class="item">
-                                            <img src="/img/фото_начинки.png" alt="cake" class="item__img">
-                                            <figcaption class="item__count"><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
-                                        </figure>
-                                        <h2 class="item__title">Шоколадный ганаш</h2>
-                                        <p class="item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
-                                            шоколадный из всех возможных десертов!</p>
-                                        <span class="item__price">1000 руб/кг</span>
-                                    </article>
-        
+                                <div class="builder__details">
+                                        <span class="wrapper__order">01</span>
+                                        <h2 class="wrapper__title">Выберите начинку</h2>
                                 </div>
-                                <button type="button" class="item__order-btn btn">Выбрать</button>
+                                <div class="personal-order-slider__items">
+        
+                                    <article class="personal-order-slider__item slider__item--active">
+                                        <figure class="personal-order-item">
+                                            <picture>
+                                                <source srcset="/img/1366_foto-nachinki.jpg" media="(min-width: 1366px)">
+                                                <source srcset="/img/768_foto-nachinki.jpg" media="(min-width: 768px)">
+                                                <img src="/img/фото_начинки.png" alt="cake" class="item__img">
 
+                                            </picture>
+                                            <figcaption class="personal-order-item__count"><span class="current-item">1</span>/<span class="last-item">12</span></figcaption>
+                                        </figure>
+                                        <div class="personal-order-item__details">
+                                                <h2 class="personal-order-item__title">Шоколадный ганаш</h2>
+                                                <p class="personal-order-item__desc">Ароматный шоколадный бисквит, густой шоколадный крем – самый
+                                                    шоколадный из всех возможных десертов!</p>
+                                                <span class="personal-order-item__price">1000 руб/кг</span>
+                                                <button type="button" class="item__order-btn btn">Выбрать</button>
+
+                                        </div>
+                                        
+                                    </article>
+
+                                </div>
                             </div>
+
                         </section>
             </div>
             </div>
