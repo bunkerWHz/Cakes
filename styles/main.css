@@ -19,6 +19,9 @@ body {
   box-sizing: border-box;
   background-color: #fbebea; }
 
+picture {
+  display: block; }
+
 .main-nav {
   padding: 40px 20px 0;
   background: url(/img/фото_торта.png) no-repeat;
@@ -165,6 +168,8 @@ body {
   padding: 21px 65px;
   height: auto;
   width: auto; }
+  .btn:hover {
+    box-shadow: 0 5px 7px 1px rgba(255, 0, 67, 0.3); }
 
 @media screen and (min-width: 768px) {
   .main-nav {
@@ -306,6 +311,8 @@ body {
   margin: 0 auto;
   margin-bottom: 10px;
   position: relative; }
+  .card:hover {
+    opacity: 0.4; }
 
 .card__link {
   text-decoration: none; }
@@ -337,20 +344,57 @@ body {
     text-align: left;
     font-size: 28px; }
   .products__cards {
-    grid-template-rows: repeat(4, 184px);
-    grid-template-columns: 419px 288px;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 184px);
     grid-gap: 20px;
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 20px; }
+    .products__cards--big-left {
+      grid-template-columns: 419px 288px; }
+      .products__cards--big-left .products__card:first-of-type {
+        grid-row: span 2; }
+    .products__cards--big-right {
+      grid-template-columns: 288px 419px; }
+      .products__cards--big-right .products__card:last-of-type {
+        grid-row: span 2; }
   .card {
     width: auto;
     height: 184px;
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     box-shadow: 0 10px 13px 1px rgba(163, 6, 60, 0.05); }
-  .products__card--6 {
-    grid-row: span 2; }
-  .products__card--1 {
-    grid-row: span 2; } }
+    .card:hover {
+      opacity: 1;
+      box-shadow: 0 10px 13px 1px rgba(163, 6, 60, 0.12);
+      background-color: #aeaeae; } }
+
+@media screen and (min-width: 1366px) {
+  .products {
+    padding: 0 72px; }
+  .products__title {
+    font-size: 40px; }
+  .products__cards {
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 305px);
+    grid-gap: 43px;
+    margin: 0;
+    margin-bottom: 43px; }
+    .products__cards--big-left {
+      grid-template-columns: 696px 484px; }
+      .products__cards--big-left .products__card:first-of-type {
+        grid-row: span 2; }
+    .products__cards--big-right {
+      grid-template-columns: 484px 696px; }
+      .products__cards--big-right .products__card:last-of-type {
+        grid-row: span 2; }
+  .card {
+    height: 305px; }
+    .card__title {
+      font-size: 24px; }
+    .card__count {
+      margin-top: 10px;
+      font-size: 20px; } }
 
 .container {
   min-width: 280px; }
