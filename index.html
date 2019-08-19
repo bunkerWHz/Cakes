@@ -178,19 +178,71 @@
                     </section>
                 </div>
             </div>
-            <section class="cake__sizes">
-                <span class="wrapper__order">02</span>
-                <h2 class="wrapper__title">Размер</h2>
+            <section class="cake-sizes">
+               <div class="cake-sizes__details">
+                    <span class="wrapper__order">02</span>
+                    <h2 class="wrapper__title">Размер</h2>
+               </div>
+                
                 <div class="size__items slider__items">
 
-                    <article class="slider__item slider__item--active">
+                    <article class="size-item-slider__item size-item-slider__item--active">
                         <figure class="size-item">
-                            <img class="size-item__img" src="/img/круг1.svg" alt="форма круг">
+                            <picture>
+                                <source srcset="/img/1366_круг1.png" media="(min-width: 1366px)">
+                                <source srcset="/img/768_круг1.png" media="(min-width: 768px)">
+                                <img class="size-item__img" src="/img/круг1.svg" alt="форма круг">
+                                </picture>
                             <figcaption><span class="size-item__weight">1 кг</span></figcaption>
                         </figure>
 
                         <p class="size-item__definition">17-18 см<br>(1 кг – 6 персон)</p>
                     </article>
+                    <article class="size-item-slider__item">
+                        <figure class="size-item">
+                            <picture>
+                                <source srcset="/img/1366_круг2.png" media="(min-width: 1366px)">
+                                    <source srcset="/img/768_круг2.png" media="(min-width: 768px)">
+                                        <img class="size-item__img" src="/img/круг2.svg" alt="форма круг">
+
+                            </picture>
+                            <figcaption><span class="size-item__weight">2 кг</span></figcaption>
+                        </figure>
+
+                        <p class="size-item__definition">23-24 см<br>(10–12 персон)</p>
+                    </article>
+                    <article class="size-item-slider__item">
+                        <figure class="size-item">
+                                <picture>
+                                        <source srcset="/img/1366_krug5.png" media="(min-width: 1366px)">
+                                            <source srcset="/img/768_krug5.png" media="(min-width: 768px)">
+                            <img class="size-item__img" src="/img/круг3.svg" alt="форма круг">
+                            </picture>
+                            <figcaption><span class="size-item__weight">5 кг</span></figcaption>
+                        </figure>
+
+                        <p class="size-item__definition">Два яруса 25 и 20 см<br>(15–20 персон)</p>
+                    </article>
+                    <article class="size-item-slider__item">
+                        <figure class="size-item">
+                                <picture>
+                                        <source srcset="/img/1366_krug8.png" media="(min-width: 1366px)">
+                                            <source srcset="/img/768_krug8.png" media="(min-width: 768px)">
+                            <img class="size-item__img" src="/img/круг4.svg" alt="форма круг">
+                            </picture>
+                            <figcaption><span class="size-item__weight">8 кг</span></figcaption>
+                        </figure>
+
+                        <p class="size-item__definition">Три яруса 30,25 и 18 см<br>(25–30 персон)</p>
+                    </article>
+
+
+
+
+
+
+
+
                     <button class="size-item-btn btn">Выбрать</button>
                 </div>
             </section>
