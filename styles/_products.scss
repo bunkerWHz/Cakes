@@ -71,6 +71,8 @@
             grid-auto-flow: column;
             grid-template-rows: repeat(2, 184px);
             grid-gap: 20px;
+            justify-content: center;
+            padding: 0;
             margin: 0;
             margin-bottom: 20px;
             &--big-left {
@@ -99,6 +101,16 @@
                 box-shadow: 0 10px 13px 1px rgba(163, 6, 60, 0.12);
                 background-color: #aeaeae;
         }
+        &__title {
+            font-size: 14px;
+            top: 23px;
+            left: 26px;
+        }
+        &__count {
+            font-size: 14px;
+            top: 37px;
+            left: 26px;
+        }
         }
         
     }
@@ -117,25 +129,24 @@
             margin-bottom: 43px;
             &--big-left {
                 grid-template-columns: 696px 484px;
-                .products__card:first-of-type {
-                    grid-row: span 2;
-                }
             }
             &--big-right {
                 grid-template-columns: 484px 696px;
-                .products__card:last-of-type {
-                    grid-row: span 2;
                 }
             }
-        }
-        .card {
-            height: 305px;
-            &__title {
-                font-size: 24px;
+            .card {
+                height: 305px;
+                &__title {
+                    font-size: 24px;
+                    top: 40px;
+                    left: 47px;
+                }
+                &__count {
+                    font-size: 20px;
+                    left: 47px; 
+                    top: 69px;
+                }
             }
-            &__count {
-                margin-top: 10px;
-                font-size: 20px;
-            }
+        
         }
-    }
+       
