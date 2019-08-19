@@ -570,6 +570,7 @@ picture {
     box-sizing: border-box; }
   .item__order-btn {
     display: inline-block;
+    font-size: 10px;
     margin: 0; }
   .personal-order-item__count {
     bottom: 0;
@@ -589,12 +590,39 @@ picture {
   .personal-order__desc {
     font-size: 35px; }
   .wrapper__order {
-    font-size: 36px; }
+    font-size: 58px; }
   .wrapper__title {
-    font-size: 18px; }
+    font-size: 27px; }
   .item {
     height: 390px;
-    width: 343px; } }
+    width: 343px; }
+  .builder__details {
+    width: 135px;
+    margin-right: 80px; }
+  .builder__wrapper {
+    padding: 80px; }
+  .personal-order-slider__item {
+    width: 653px;
+    height: 390px; }
+  .personal-order-item {
+    height: 390px;
+    width: 343px;
+    margin: 0;
+    margin-right: 42px; }
+    .personal-order-item__title {
+      font-size: 20px; }
+    .personal-order-item__desc {
+      font-size: 18px;
+      margin-bottom: 24px;
+      width: 270px; }
+    .personal-order-item__price {
+      font-size: 22px;
+      margin-bottom: 50px; }
+    .personal-order-item__count {
+      font-size: 18px; }
+  .item__order-btn {
+    font-size: 13px;
+    padding: 21px 65px; } }
 
 .cake__sizes {
   background-color: #fff;
