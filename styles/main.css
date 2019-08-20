@@ -842,7 +842,8 @@ figure {
     position: absolute;
     text-align: center;
     bottom: 19px;
-    left: 25%; }
+    left: 10%;
+    right: 10%; }
   .toping__title {
     font-size: 14px; }
   .toping__price {
@@ -869,6 +870,50 @@ figure {
   .choice-btn {
     font-size: 10px;
     padding: 17px 40px; } }
+
+@media screen and (min-width: 1366px) {
+  .wrapper__order {
+    font-size: 64px; }
+  .wrapper__title {
+    font-size: 27px; }
+  .topings {
+    background: url(/img/1366_иллюстрация.png) no-repeat 17px 199px #fff;
+    padding: 72px 68px; }
+    .topings__items {
+      height: auto;
+      width: 683px;
+      justify-content: space-between;
+      margin-left: 370px;
+      padding: 0; }
+    .topings__item {
+      width: 321px;
+      height: 431px; }
+  .toping__title {
+    font-size: 20px; }
+  .toping__price {
+    font-size: 22px; }
+  .choice__title {
+    font-size: 27px; }
+  .choice__results {
+    width: 804px; }
+  .choice__result {
+    text-align: left;
+    margin-right: 83px;
+    width: 249px; }
+    .choice__result:nth-of-type(2) {
+      width: 137px; }
+    .choice__result:last-of-type {
+      margin-right: 0; }
+  .choice .result__title {
+    font-size: 27px; }
+  .choice .result__type {
+    font-size: 18px;
+    padding: 10px  0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #c1b0af; }
+  .choice-btn {
+    font-size: 13px; } }
 
 .feedbacks {
   text-align: center; }
