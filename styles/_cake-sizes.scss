@@ -16,8 +16,9 @@
     margin: 0 auto;
     display: block;
     border-radius: 50%;
+    border: 10px solid #fff;
     &:hover {
-        box-shadow: 0 6px 16px 1px rgba(103, 12, 40, 0.14);
+        box-shadow: 0px 6px 16px 1px rgba(103, 12, 40, 0.14) ;
     }
 }
 .size-item__weight {
@@ -74,6 +75,27 @@
     .size-item__weight {
         font-size: 12px;
         top: calc(50% - 16px);
-    left: calc(50% - 6px);
+        left: calc(50% - 6px);
+    }
+}
+@media screen and (min-width: 1366px) {
+    .cake-sizes {
+        padding: 140px 165px;
+    }
+    &__details {
+        top: 75px;
+        left: 82px;
+    }
+    .wrapper__order {
+        font-size: 64px;
+    }
+    .wrapper__title {
+        font-size: 27px;
+    }
+    .size-item__weight {
+        font-size: 17px;
+    }
+    .size-item__definition {
+        font-size: 18px;
     }
 }
