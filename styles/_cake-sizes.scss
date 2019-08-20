@@ -46,10 +46,14 @@
         padding: 75px 71px;
         position: relative;
         &__details {
+            text-align: left;
             position: absolute;
             top: 46px;
             left: 46px;
-        }
+            display: flex;
+display: flex;
+flex-direction: column;
+align-content: flex-start;        }
     }
     .size__items {
         display: flex;

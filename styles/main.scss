@@ -19,7 +19,10 @@ margin: 0;
     background-color: #fbebea;
 }
 picture { display:block; }
-
+figure {
+  margin: 0;
+  padding: 0;
+}
 
 
 @import "header.scss";

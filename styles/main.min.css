@@ -22,6 +22,10 @@ body {
 picture {
   display: block; }
 
+figure {
+  margin: 0;
+  padding: 0; }
+
 .main-nav {
   padding: 40px 20px 0;
   background: url(/img/фото_торта.png) no-repeat;
@@ -669,9 +673,14 @@ picture {
     padding: 75px 71px;
     position: relative; }
     .cake-sizes__details {
+      text-align: left;
       position: absolute;
       top: 46px;
-      left: 46px; }
+      left: 46px;
+      display: flex;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start; }
   .size__items {
     display: flex;
     flex-direction: row;
@@ -714,6 +723,19 @@ picture {
 .toping {
   position: relative;
   box-shadow: 0 2px 5px 1px rgba(163, 6, 60, 0.1); }
+
+.topings__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; }
+
+.topings__item {
+  height: 270px;
+  width: 170px; }
+  .topings__item--1 {
+    display: none; }
 
 .toping__title {
   color: #2f2f2f;
@@ -778,6 +800,43 @@ picture {
 
 .choice-btn {
   margin: 30px auto 34px; }
+
+@media screen and (min-width: 768px) {
+  .topings-btn {
+    display: none; }
+  .toping {
+    box-shadow: none; }
+    .toping__count {
+      display: none; }
+  .topings {
+    text-align: left;
+    padding: 39px 27px 44px 45px;
+    position: relative;
+    background: url(/img/768_иллюстрация.png) no-repeat 0 121px #fff; }
+    .topings__items {
+      width: 506px;
+      margin-left: auto;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 46px;
+      margin-bottom: 26px;
+      background-color: transparent; }
+    .topings__item {
+      height: auto;
+      width: 195px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      box-shadow: 0 5px 13px 1px rgba(163, 6, 60, 0.1); }
+      .topings__item:hover {
+        box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.14); }
+      .topings__item--1 {
+        display: initial; }
+    .topings__details {
+      position: absolute;
+      top: 40px;
+      left: 46px;
+      width: 120px; } }
 
 .feedbacks {
   text-align: center; }

@@ -236,49 +236,65 @@
                         <p class="size-item__definition">Три яруса 30,25 и 18 см<br>(25–30 персон)</p>
                     </article>
 
-
-
-
-
-
-
-
                     <button class="size-item-btn btn">Выбрать</button>
                 </div>
             </section>
 
             <section class="topings">
+                    <div class="topings__details">
                 <span class="wrapper__order">03</span>
                 <h2 class="wrapper__title">Оформление</h2>
-
-                <div class="topings__items slider__items">
-                    <article class="topoings_item slider__item slider__item--active">
-                        <figure class="toping">
-                            <img src="/img/фото_торта1.jpg" alt="cake" class="topoing__img topoings__img--active">
-                            <figcaption class="toping__count"><span class="toping-current-item">1</span>/<span class="toping-last-item">35</span></figcaption>
-                        </figure>
-                        <h2 class="toping__title">Маршмэллоу</h2>
-                        <span class="toping__price">600 руб/кг</span>
-                    </article>
-                </div>
+                    </div>
+                <ul class="topings__items slider__items">
+                    <li class="topings__item topings__item--1">
+                            <article class="topings__item">
+                                    <figure class="toping">
+                                        <picture>
+                                                <source srcset="/img/768_фото_торта2.jpg" media="(min-width:768px)">
+                                                    <source srcset="/img/1366_фото_торта2.jpg" media="(min-width:1366px)">
+                                                        <img src="/img/фото_торта2.jpg" alt="cake" class="topoing__img">
+                                        </picture>
+                                        <figcaption class="toping__count"><span class="toping-current-item">1</span>/<span class="toping-last-item">35</span></figcaption>
+                                    </figure>
+                                    <h2 class="toping__title">Ягодное ассорти</h2>
+                                    <span class="toping__price">700 руб/кг</span>
+                                </article>
+                    </li>
+                   <li class="topings__item topings__item--2">
+                        <article class="topings__item">
+                                <figure class="toping">
+                                    <picture>
+                                            <source srcset="/img/768_фото_торта1.jpg" media="(min-width:768px)">
+                                                <source srcset="/img/1366_фото_торта1.jpg" media="(min-width:1366px)">
+                                                    <img src="/img/фото_торта1.jpg" alt="cake" class="topoing__img">
+                                    </picture>
+                                    <figcaption class="toping__count"><span class="toping-current-item">1</span>/<span class="toping-last-item">35</span></figcaption>
+                                </figure>
+                                <h2 class="toping__title">Маршмэллоу</h2>
+                                <span class="toping__price">600 руб/кг</span>
+                            </article>
+                   </li>
+                   
+                    </ul>
                 <button class="topings-btn btn">Выбрать</button>
+                
             </section>
             <section class="choice">
-                <h1 class="choice__title">Ваш выбор</h1>
-                <ul class="choice__results">
-                    <li class="choice__result"><h3 class="result__title">Начинка</h3>
-                        <p class="result__type">Шоколадный ганаш</p>
-                    </li>
-                    <li class="choice__result"><h3 class="result__title">Размер</h3>
-                        <p class="result__type">1 кг</p>
-                    </li>
-                    <li class="choice__result"><h3 class="result__title">Оформление</h3>
-                        <p class="result__type">Маршмэллоу</p>
-                    </li>
-                </ul>
-
-                <button type="submit" class="choice-btn btn">заказать торт</button>
-            </section>
+                    <h1 class="choice__title">Ваш выбор</h1>
+                    <ul class="choice__results">
+                        <li class="choice__result"><h3 class="result__title">Начинка</h3>
+                            <p class="result__type">Шоколадный ганаш</p>
+                        </li>
+                        <li class="choice__result"><h3 class="result__title">Размер</h3>
+                            <p class="result__type">1 кг</p>
+                        </li>
+                        <li class="choice__result"><h3 class="result__title">Оформление</h3>
+                            <p class="result__type">Маршмэллоу</p>
+                        </li>
+                    </ul>
+    
+                    <button type="submit" class="choice-btn btn">заказать торт</button>
+                </section>
         </div>
     </section>
 
