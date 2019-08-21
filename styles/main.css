@@ -1067,7 +1067,7 @@ figure {
 @media screen and (min-width: 768px) {
   .feedbacks {
     padding: 46px;
-    background: url("/img/768_l_иллюстрация_к_отзывам.png") no-repeat 0 -5px, url("/img/768_r_иллюстрация_к_отзывам.png") no-repeat 100% -10px; }
+    background: url("/img/768_l_иллюстрация_к_отзывам.png") no-repeat 0 -10px, url("/img/768_r_иллюстрация_к_отзывам.png") no-repeat 100% -10px; }
   .feedbacks__title {
     margin-top: 0;
     font-size: 28px; }
@@ -1148,6 +1148,57 @@ figure {
     height: 40px;
     display: inline-block;
     background: url(/img/768_роспись.png) no-repeat; } }
+
+@media screen and (min-width: 1366px) {
+  .feedbacks {
+    padding: 115px 73px 0;
+    background: url("/img/1366_l_иллюстрация_к_отзывам.png") no-repeat -65px 0, url("/img/1366_r_иллюстрация_к_отзывам.png") no-repeat calc(100% + 65px) 0; }
+  .feedbacks__title {
+    font-size: 40px; }
+  .feedback {
+    width: 620px;
+    height: 220px; }
+    .feedback__name {
+      font-size: 27px; }
+    .feedback__prof {
+      font-size: 20px;
+      margin-bottom: 27px; }
+    .feedback__context {
+      font-size: 18px;
+      width: 355px; }
+    .feedback__img {
+      padding-top: 0;
+      margin-right: 34px;
+      width: 209px;
+      height: 209px; }
+  .about__quote {
+    padding-bottom: 140px; }
+  .about__socials {
+    width: 1150px;
+    height: 520px;
+    margin-bottom: 195px; }
+  .about__title {
+    font-size: 40px; }
+  .about__person {
+    margin-bottom: 25px; }
+  .person__title {
+    font-size: 35px; }
+  .person__hightlight {
+    font-size: 20px; }
+  .person__text {
+    font-size: 18px;
+    width: 553px; }
+  .quote__icon {
+    font-size: 140px;
+    top: -100px; }
+  .quote__text {
+    font-size: 25px;
+    width: 616px;
+    margin-bottom: 50px; }
+  .quote__signature {
+    width: 149px;
+    height: 73px;
+    background: url(/img/1366_роспись.png) no-repeat; } }
 
 .advantages__title {
   color: #2d2829;
