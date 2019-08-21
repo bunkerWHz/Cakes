@@ -522,7 +522,8 @@ figure {
 
 @media screen and (min-width: 768px) {
   .personal-order {
-    padding: 0 20px; }
+    padding: 0 20px;
+    margin-bottom: 0; }
   .personal-order__title {
     font-size: 28px; }
   .mobile-divider {
@@ -671,7 +672,8 @@ figure {
 @media screen and (min-width: 768px) {
   .cake-sizes {
     padding: 75px 71px;
-    position: relative; }
+    position: relative;
+    box-shadow: 0 5px 13px 1px rgba(163, 6, 60, 0.1); }
     .cake-sizes__details {
       text-align: left;
       position: absolute;
@@ -849,7 +851,8 @@ figure {
   .toping__price {
     font-size: 14px; }
   .choice {
-    padding: 0 45px; }
+    padding: 0 45px;
+    box-shadow: 0 5px 13px 1px rgba(163, 6, 60, 0.1); }
     .choice__title {
       font-size: 18px; }
     .choice__results {
@@ -925,7 +928,8 @@ figure {
   font-weight: 700; }
 
 .feedback {
-  position: relative; }
+  position: relative;
+  margin: 0 auto; }
 
 .feedback__img {
   display: block;
@@ -956,9 +960,9 @@ figure {
   font-family: "Circe";
   font-size: 12px;
   font-weight: 400;
+  width: 230px;
   padding: 0 40px;
-  box-sizing: border-box;
-  margin: 0px;
+  margin: 0 auto;
   margin-bottom: 70px; }
 
 .feedback__count {
@@ -981,7 +985,8 @@ figure {
   color: #2d2829;
   font-family: "Playfair Display";
   font-size: 24px;
-  font-weight: 700; }
+  font-weight: 700;
+  width: 100%; }
 
 .about__quote {
   margin-top: 74px;
@@ -1010,6 +1015,8 @@ figure {
 .about__socials {
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 280px;
   box-sizing: border-box; }
 
@@ -1056,6 +1063,41 @@ figure {
   height: 31px;
   display: inline-block;
   background: url(/img/роспись.png) no-repeat; }
+
+@media screen and (min-width: 768px) {
+  .feedbacks {
+    padding: 46px;
+    background: url("/img/768_l_иллюстрация_к_отзывам.png") no-repeat 0 -5px, url("/img/768_r_иллюстрация_к_отзывам.png") no-repeat 100% -10px; }
+  .feedbacks__title {
+    margin-top: 0;
+    font-size: 28px; }
+  .feedback {
+    width: 386px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 132px; }
+    .feedback__img {
+      margin: 0;
+      margin-right: 25px;
+      padding-top: 20px;
+      height: 100%;
+      align-self: center; }
+    .feedback__name {
+      margin: 0;
+      font-size: 16px;
+      text-align: left; }
+    .feedback__prof {
+      text-align: left;
+      font-size: 14px; }
+    .feedback__context {
+      text-align: left;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      width: 255px; } }
 
 .advantages__title {
   color: #2d2829;

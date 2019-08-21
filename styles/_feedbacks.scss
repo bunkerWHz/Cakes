@@ -9,6 +9,7 @@ font-weight: 700;
 }
 .feedback {
     position: relative;
+margin: 0 auto;
 }
 .feedback__img {
     display: block;
@@ -39,9 +40,9 @@ color: #2d2829;
 font-family: "Circe";
 font-size: 12px;
 font-weight: 400;
+width: 230px;
 padding: 0 40px;
-box-sizing: border-box;
-    margin: 0px;
+    margin: 0 auto;
     margin-bottom: 70px;
 }
 .feedback__count {
@@ -65,6 +66,7 @@ color: #2d2829;
 font-family: "Playfair Display";
 font-size: 24px;
 font-weight: 700;
+width: 100%;
 }
 .about__quote {
     margin-top: 74px;
@@ -99,6 +101,8 @@ font-weight: 700;
 .about__socials {
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 280px;
     box-sizing: border-box;
 }
@@ -148,4 +152,53 @@ font-style: italic;
     height: 31px;
     display: inline-block;
     background: url(/img/роспись.png) no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    .feedbacks {
+        padding: 46px;
+        background: url('/img/768_l_иллюстрация_к_отзывам.png') no-repeat 0 -5px,
+        url('/img/768_r_иллюстрация_к_отзывам.png') no-repeat 100% -10px;
+    }
+    .feedbacks__title {
+        margin-top: 0;
+        font-size: 28px;
+    }
+    .feedback {
+        width: 386px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 132px;
+        &__img {
+            margin: 0;
+            margin-right: 25px;
+            padding-top: 20px;
+            height: 100%;
+            align-self: center;
+        }
+        &__name {
+            margin: 0;
+            font-size: 16px;
+            text-align: left;
+        }
+        &__prof {
+            text-align: left;
+            font-size: 14px;
+        }
+        &__context {
+            text-align: left;
+            font-size: 14px;
+            margin: 0;  
+            padding: 0;
+            width: 255px;
+        }
+    }
+    .about {
+        &__title {
+            
+        }
+    }
 }

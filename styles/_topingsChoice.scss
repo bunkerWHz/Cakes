@@ -106,7 +106,7 @@ margin: 0 auto;
         text-align: left;
         padding: 39px 27px 44px 45px;
         position: relative;
-        background: url(/img/768_иллюстрация.png) no-repeat 0 121px #fff;
+                background: url(/img/768_иллюстрация.png) no-repeat 0 121px #fff;
         &__items {
             width: 506px;
             margin-left: auto;
@@ -153,6 +153,7 @@ margin: 0 auto;
     }
     .choice {
         padding: 0 45px;
+        box-shadow: 0 5px 13px 1px rgba(163, 6, 60, 0.1);
         &__title {
             font-size: 18px;
         }

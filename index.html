@@ -49,10 +49,8 @@
                                 <picture>
                                         <source srcset="/img/1366_Классические_фото.jpg" media="(min-width: 1366px)">
                                     <source srcset="/img/768_Классические_фото.jpg" media="(min-width: 768px)">
-
                                         <img src="/img/Классические_фото.jpg" alt="Классические " class="card__img">
                                 </picture>
-                               
                                 <figcaption class="card__title">Классические</figcaption>
                                 <figcaption class="card__count">24 вида</figcaption>
                             </a>
@@ -305,35 +303,43 @@
         <div class="container">
             <h1 class="feedbacks__title">Отзывы</h1>
             <div class="feedback">
-                <img src="/img/фото.png" alt="клиент" class="feedback__img">
+                <picture class="feedback__img">
+                        <source srcset="/img/1366_layer_12.png" media="(min-width: 1366px)">
+                    <source srcset="/img/768_layer_12.png" media="(min-width: 768px)">
+                     <img src="/img/фото.png" alt="клиент">
+                </picture>
                 <span class="feedback__name">Мария</span>
                 <span class="feedback__prof">юрист, 33 года</span>
                 <p class="feedback__context">Заказывала торт брауни на юбилей мужа.
                     Гости были в восторге! Отдельное спасибо
-                    за своевременную доставку! Теперь будем заказывать торты только у вас для наших семейных праздников:) <a href="#" class="feedback__link">Развернуть</a></p>
+                    за своевременную доставку! Теперь будем заказывать торты только у вас для наших семейных праздников:) 
+                    <a href="#" class="feedback__link">Развернуть</a></p>
                 <span class="feedback__count"><span class="feedback-current-item">1</span>/<span class="feedback-last-item">26</span></span>
             </div>
     </section>
     <section class="about">
         <div class="container">
-            <h1 class="about__title">О нас</h1>
             <div class="about__socials">
-                <img src="/img/aboutus.png" alt="кондитер" class="person-photo">
+                <h1 class="about__title">О нас</h1>
+                <picture  class="person-photo">
+                        <source srcset="/img/1366_фото.png" media="(min-width: 1366px)">
+                    <source srcset="/img/768_фото.png" media="(min-width: 768px)">
+                        <img src="/img/aboutus.png" alt="кондитер">
+                </picture>
                 <div class="social__links">
                     <a href="#" class="social__link social__link--inst"><i class="social__icon social__icon--inst"></i></a>
                     <a href="#" class="social__link social__link--vk"><i class="social__icon social__icon--vk"></i></a>
                     <a href="#" class="social__link social__link--tw"><i class="social__icon social__icon--tw"></i></a>
                 </div>
-            </div>
-
-            <div class="about__person">
-                <h2 class="person__title">О кондитере</h2>
-                <p class="person__hightlight">Кондитер – как призвание</p>
-                <p class="person__text">Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.</p>
-                <p class="person__hightlight">Принцип – натуральные ингредиенты </p>
-                <p class="person__text">Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает
-                    качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.</p>
-            </div>
+                <div class="about__person">
+                        <h2 class="person__title">О кондитере</h2>
+                        <p class="person__hightlight">Кондитер – как призвание</p>
+                        <p class="person__text">Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.</p>
+                        <p class="person__hightlight">Принцип – натуральные ингредиенты </p>
+                        <p class="person__text">Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает
+                            качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.</p>        
+                </div>
+                 </div>
             <div class="about__quote">
                 <span class="quote__icon">’’</span>
                 <p class="quote__text">Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты превращаются в божественное блюдо.</p>
