@@ -1097,7 +1097,57 @@ figure {
       font-size: 14px;
       margin: 0;
       padding: 0;
-      width: 255px; } }
+      width: 255px; }
+  .about__socials {
+    flex-direction: column;
+    height: 377px;
+    flex-wrap: wrap;
+    width: 680px; }
+  .about__title {
+    font-size: 28px;
+    text-align: left;
+    width: 330px;
+    margin-bottom: 13px; }
+  .person-photo {
+    order: 4;
+    margin-left: 34px; }
+  .person__title {
+    font-size: 26px;
+    margin: 0; }
+  .person__hightlight {
+    font-size: 15px;
+    margin: 10px 0; }
+  .person__text {
+    margin: 0; }
+  .about__person {
+    width: 330px;
+    height: auto;
+    order: 2; }
+  .social__links {
+    margin-top: 18px;
+    flex-direction: row;
+    order: 3; }
+  .social__link {
+    margin-right: 19px; }
+  .about__quote {
+    margin: 0 auto; }
+  .quote__icon {
+    font-size: 77px;
+    margin-bottom: 22px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 20px); }
+  .quote__text {
+    font-size: 14px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 26px; }
+  .quote__signature {
+    width: 82px;
+    height: 40px;
+    display: inline-block;
+    background: url(/img/768_роспись.png) no-repeat; } }
 
 .advantages__title {
   color: #2d2829;
