@@ -1299,6 +1299,7 @@ figure {
     display: flex;
     padding: 0;
     flex-direction: column;
+    padding-right: 21px;
     width: 285px;
     margin-left: auto;
     margin-bottom: 211px; }
@@ -1342,6 +1343,50 @@ figure {
   .advantages__care-desc {
     margin: 0;
     font-size: 26px; } }
+
+@media screen and (min-width: 1366px) {
+  .advantages {
+    padding: 25px 81px 0;
+    background: url("/img//1366_yagodi.png") no-repeat left -10px top 0px, url("/img/1366_adv-back.png") no-repeat bottom -45px right -35px; }
+    .advantages__title {
+      font-size: 40px;
+      margin: 0 auto;
+      margin-bottom: 30px; }
+    .advantages__desc {
+      font-size: 35px;
+      margin-bottom: 130px; }
+  .advantages__items {
+    padding-right: 212px;
+    margin-bottom: 365px; }
+  .advantages__item {
+    margin-bottom: 40px; }
+  .item__img--1 {
+    top: 0;
+    left: calc( 61px - 21px - 61px * 2);
+    width: 61px;
+    height: 61px;
+    background: url(/img/1366_adv_иконка_ингредиенты.png) no-repeat; }
+  .item__img--2 {
+    left: calc( 63px - 15px - 63px * 2);
+    top: 0;
+    width: 63px;
+    height: 38px;
+    background: url(/img/768_adv_иконка_торт.png) no-repeat; }
+  .item__title {
+    font-size: 20px; }
+  .item__desc {
+    font-size: 20px; }
+  .care {
+    width: 440px;
+    height: 390px; }
+  .advantages__care-title {
+    font-size: 40px;
+    margin-bottom: 25px; }
+  .advantages__care-desc {
+    margin-bottom: 20px;
+    font-size: 35px; }
+  .advantages__care-content {
+    font-size: 20px; } }
 
 .order {
   background-color: #e3353d;
