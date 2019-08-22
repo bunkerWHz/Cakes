@@ -1,9 +1,8 @@
 .order {
-    background-color: #e3353d;
-    z-index: 2;
+    background: #e3353d url("/img/320_order-bg.png") no-repeat bottom  center;
     min-height: 482px;
     text-align: center;
-    padding-top: 37px;
+    padding: 37px 20px 0;
 }
 .order__title {
 color: #ffffff;
@@ -51,4 +50,8 @@ margin-bottom: 23px;
 }
 .order__img {
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
 }
