@@ -1207,8 +1207,10 @@ figure {
   font-weight: 700; }
 
 .advantages {
-  position: relative;
-  padding: 0 20px; }
+  padding: 0 20px;
+  padding-bottom: 160px;
+  background: url("/img/320_adv-back.png") no-repeat;
+  background-position: bottom -81% left 50%; }
 
 .advantages__desc {
   color: #32313d;
@@ -1217,9 +1219,6 @@ figure {
   font-weight: 400;
   margin: 0;
   margin-bottom: 13px; }
-
-.advantages__img--front {
-  display: none; }
 
 .advantages__items {
   list-style: none;
@@ -1232,14 +1231,14 @@ figure {
 
 .item__title {
   color: #000000;
-  font-family: Circe;
+  font-family: "Circe";
   font-size: 16px;
   font-weight: 700;
   text-align: center; }
 
 .item__desc {
   color: #000000;
-  font-family: Circe;
+  font-family: "Circe";
   font-size: 14px;
   font-weight: 400;
   text-align: center; }
@@ -1257,7 +1256,9 @@ figure {
     background: url(/img/tort_320_large.png) no-repeat; }
 
 .care {
-  text-align: left; }
+  text-align: left;
+  margin: 0 auto;
+  width: 254px; }
 
 .advantages__care-title {
   color: #2d2829;
@@ -1279,17 +1280,15 @@ figure {
 
 .advantages__care-content {
   color: #000000;
-  font-family: Circe;
+  font-family: "Circe";
   font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 173px; }
+  font-weight: 700; }
 
-.advantages__img--back {
-  max-width: 320px;
-  position: absolute;
-  bottom: -452px;
-  left: calc(50% - 460px / 2);
-  z-index: -1; }
+@media screen and (min-width: 768px) {
+  .advantages__items {
+    background-color: #fbebea;
+    width: 342px;
+    text-align: left; } }
 
 .order {
   background-color: #e3353d;
