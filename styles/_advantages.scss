@@ -88,12 +88,76 @@ font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
+    .advantages {
+        padding: 0 46px;
+        background: url('/img//768_yagodi.png') no-repeat left -10px top 5px,
+        url("/img/768_adv-back.png") no-repeat bottom -35px right -35px;
+        &__title {
+            font-size: 28px;
+            margin: 0 auto;
+        }
+        &__desc {
+            font-size: 26px;
+            margin-bottom: 62px;
+        }
+    }
     .advantages__items {
-        background-color: #fbebea;
-        width: 342px;
-        text-align: left;
+        background-color: transparent;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        width: 285px;
+        margin-left: auto;
+        margin-bottom: 211px;
     }
     .advantages__item {
- 
+        position: relative;
+        text-align: left;
+        margin-bottom: 15px;
+        }
+        .item__img {
+
+            position: absolute;
+            &--1{
+                top: 0;
+                left: calc( 48px - 23px - 48px * 2);
+                width: 48px;
+                height: 48px;
+                background: url(/img/768_adv_иконка_ингредиенты.png) no-repeat;
+            }
+            &--2 {
+                left: calc( 63px - 17px - 63px * 2);
+                top: 0;
+                width: 63px;
+                height: 38px;
+                background: url(/img/768_adv_иконка_торт.png) no-repeat;
+            }
+        }
+        .item {
+            &__title {
+                font-size: 15px;
+                text-align: left;
+                margin: 0;
+            }
+            &__text {
+                margin: 0;
+            }
+        }
+    .care {
+        margin: 0;
+        margin-right: auto;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+    }
+    .advantages__care-content {
+        height: 170px;
+        margin: 0;
+    }
+    .advantages__care-title {
+        margin: 0;
+    }
+    .advantages__care-desc {
+        margin: 0;
     }
 }
