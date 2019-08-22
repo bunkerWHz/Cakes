@@ -1334,11 +1334,14 @@ figure {
     flex-direction: column; }
   .advantages__care-content {
     height: 170px;
+    font-size: 14px;
     margin: 0; }
   .advantages__care-title {
-    margin: 0; }
+    margin: 0;
+    font-size: 28px; }
   .advantages__care-desc {
-    margin: 0; } }
+    margin: 0;
+    font-size: 26px; } }
 
 .order {
   background-color: #e3353d;
