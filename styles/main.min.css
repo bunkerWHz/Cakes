@@ -1389,7 +1389,8 @@ figure {
     font-size: 20px; } }
 
 .order {
-  background: #e3353d url("/img/320_order-bg.png") no-repeat bottom center;
+  background: url("/img/320_order-bg.png") no-repeat bottom center;
+  background-color: #e3353d;
   min-height: 482px;
   text-align: center;
   padding: 37px 20px 0; }
@@ -1440,6 +1441,31 @@ figure {
 
 .order__img {
   width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .order {
+    padding: 50px 64px 0;
+    background: #e3353d url("/img/768_order-bg.png") no-repeat left top;
+    min-height: 420px;
+    height: 420px;
+    box-sizing: border-box; }
+    .order__title {
+      margin-left: 0;
+      font-size: 28px; }
+    .order__count {
+      font-size: 36px;
+      left: -13px;
+      top: -14px; }
+    .order__desc {
+      margin: 0; }
+  .order__steps {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: auto;
+    width: 375px; }
+  .order__step {
+    margin-left: 15px; } }
 
 .contacts {
   padding: 0 20px; }
