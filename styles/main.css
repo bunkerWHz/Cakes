@@ -1407,7 +1407,8 @@ figure {
   display: block;
   position: relative;
   text-align: left;
-  padding-left: 20px; }
+  padding-left: 20px;
+  margin-bottom: 23px; }
 
 .order__steps {
   list-style: none;
@@ -1436,8 +1437,7 @@ figure {
   font-family: "Circe";
   font-size: 14px;
   font-weight: 400;
-  margin: 0;
-  margin-bottom: 23px; }
+  margin: 0; }
 
 .order__img {
   width: 100%; }
@@ -1466,6 +1466,30 @@ figure {
     width: 375px; }
   .order__step {
     margin-left: 15px; } }
+
+@media screen and (min-width: 1366px) {
+  .order {
+    height: 703px;
+    padding: 120px 14px 0;
+    background: url("/img/1366_order-bg.png") left top; }
+    .order__title {
+      margin-left: 0;
+      font-size: 40px;
+      margin-bottom: 48px; }
+    .order__count {
+      font-size: 64px;
+      left: -20px;
+      top: -24px; }
+    .order__desc {
+      font-size: 21px;
+      margin: 0;
+      margin-bottom: 10px; }
+    .order__context {
+      font-size: 20px; }
+    .order__steps {
+      width: 475px; }
+    .order__step {
+      margin-bottom: 32px; } }
 
 .contacts {
   padding: 0 20px; }

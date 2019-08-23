@@ -19,6 +19,7 @@ margin-bottom: 37px;
     position: relative;
     text-align: left;
     padding-left: 20px;
+    margin-bottom: 23px;
 }
 .order__steps {
     list-style: none;
@@ -48,7 +49,6 @@ font-family: "Circe";
 font-size: 14px;
 font-weight: 400;
 margin: 0;
-margin-bottom: 23px;
 }
 .order__img {
     width: 100%;
@@ -87,4 +87,38 @@ margin-bottom: 23px;
     .order__step {
         margin-left: 15px;
     }
+}
+
+@media screen and (min-width: 1366px) {
+    .order {
+        height: 703px;
+        padding: 120px 14px 0;
+        background: url("/img/1366_order-bg.png") left top;
+        &__title {
+            margin-left: 0;
+            font-size: 40px;
+            margin-bottom: 48px;
+        }
+        &__count {
+            font-size: 64px;
+            left: -20px;
+            top: -24px;
+        }
+        &__desc {
+            font-size: 21px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        &__context {
+            font-size: 20px;
+        }
+        &__steps {
+            width: 475px;
+        }
+        &__step {
+            margin-bottom: 32px;
+        }
+    }
+    
+
 }
