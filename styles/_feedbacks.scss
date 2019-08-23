@@ -94,6 +94,12 @@ width: 100%;
 }
 .social__link {
     margin-bottom: 15px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    &:hover {
+        box-shadow: 0 2px 7px 1px rgba(255, 0, 67, 0.2);
+    }
 }
 .about__person {
     text-align: left;
@@ -235,6 +241,12 @@ font-style: italic;
     }
     .social__link {
         margin-right: 19px;
+        border-radius: 50%;
+        width: 36px;
+    height: 36px;
+        &:hover {
+            box-shadow: 0 2px 7px 1px rgba(255, 0, 67, 0.2);
+        }
     }
     .about__quote {
 margin: 0 auto;
