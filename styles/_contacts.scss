@@ -86,10 +86,53 @@ font-weight: 600;
     margin-right: 30px;
     display: inline-block;
     margin-bottom: 50px;
+    &:hover {
+        box-shadow: 0 2px 7px 1px rgba(255, 0, 67, 0.2);
+    }
     &--inst {
         background:#fff url(/img/инстаграм_иконка.png) no-repeat 50% 50%;
     }
     &--vk {
         background: #fff url(/img/вконтакте_иконка_42.png) no-repeat 50% 50%;
     }
+    &-ref {
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        margin-right: 30px;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacts {
+        background: #fbebea url("/img/768_contacts-bg.png.jpg") no-repeat bottom 0 right -140px;
+        min-height: 589px;
+        box-sizing: border-box;
+        &__wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+        &__title {
+            text-align: left;
+            font-size: 28px;
+        }
+        &__desc {
+            font-size: 22px;
+        }
+        &__form {
+            width: 345px;
+            box-sizing: border-box;
+            margin-right: 66px;
+        }
+        &__form-label {
+            width: 250px;
+        }
+        &__links {
+            text-align: left;
+        }
+        &__link {
+            margin-top: 0;
+        }
+   }
 }

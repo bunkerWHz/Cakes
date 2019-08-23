@@ -397,22 +397,25 @@
             <div class="container">
                 <h1 class="contacts__title">Контакты</h1>
                 <h2 class="contacts__desc">Остались вопросы?</h2>
-                <form action="/contacts" class="contacts__form" method="POST">
-                    <label class="contacts__form-label">Заполните форму ниже и наш кондитер свяжется с Вами</label>
-                    <input type="text" class="contacts__form-name" placeholder="Ваше имя">
-                    <input type="email" class="contacts__form-email" placeholder="Email адрес">
-                    <textarea name="question" rows="5" class="contacts__form-question" placeholder="Ваш вопрос"></textarea>
-                    <button class="contacts__submit-btn btn">Отправить</button>
-                </form>
-                <div class="contacts__links">
-                    <p class="contacts__link">Или позвоните по телефону:<br>+7 906 899 92 96</p>
-                    <p class="contacts__link">Наша почта : bakerybypavel@mail.ru</p>
-                    <p class="contacts__link">Мы в соц. сетях:</p>
-                    <ul class="contacts__socials">
-                        <li class="contacts__social contacts__social--inst"></li>
-                        <li class="contacts__social contacts__social--vk"></li>
-                    </ul>
+                <div class="contacts__wrapper">
+                        <form action="/contacts" class="contacts__form" method="POST">
+                            <label class="contacts__form-label">Заполните форму ниже и наш кондитер свяжется с Вами</label>
+                            <input type="text" class="contacts__form-name" placeholder="Ваше имя">
+                            <input type="email" class="contacts__form-email" placeholder="Email адрес">
+                            <textarea name="question" rows="5" class="contacts__form-question" placeholder="Ваш вопрос"></textarea>
+                            <button class="contacts__submit-btn btn">Отправить</button>
+                        </form>
+                        <div class="contacts__links">
+                            <p class="contacts__link">Или позвоните по телефону:<br>+7 906 899 92 96</p>
+                            <p class="contacts__link">Наша почта : bakerybypavel@mail.ru</p>
+                            <p class="contacts__link">Мы в соц. сетях:</p>
+                            <ul class="contacts__socials">
+                                <li class="contacts__social contacts__social--inst"><a href="#inst" class="contacts__social-ref"></a></li>
+                                <li class="contacts__social contacts__social--vk"><a href="#vk" class="contacts__social-ref"></a></li>
+                            </ul>
+                        </div>
                 </div>
+               
             </div>
         </section>
         <section class="footer">
