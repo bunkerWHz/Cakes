@@ -165,7 +165,7 @@ figure {
   text-align: center;
   background-color: #f50049;
   color: #ffffff;
-  font-family: "Circe"s;
+  font-family: "Circe";
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1594,7 +1594,7 @@ figure {
 
 @media screen and (min-width: 768px) {
   .contacts {
-    background: #fbebea url("/img/768_contacts-bg.png.jpg") no-repeat bottom 0 right -140px;
+    background: #FBEBEA url("/img/768_contacts-bg.png.jpg") no-repeat bottom 0 right -140px;
     min-height: 589px;
     box-sizing: border-box; }
     .contacts__wrapper {
@@ -1615,6 +1615,56 @@ figure {
       text-align: left; }
     .contacts__link {
       margin-top: 0; } }
+
+@media screen and (min-width: 1366px) {
+  .contacts {
+    padding: 80px 73px;
+    background: url(/img/1366_contacts-bg.png.jpg) no-repeat bottom right;
+    min-height: 845px; }
+    .contacts__title {
+      margin-top: 0;
+      font-size: 40px;
+      margin-bottom: 40px; }
+    .contacts__desc {
+      font-size: 35px;
+      margin: 0; }
+    .contacts__form {
+      width: 550px;
+      margin-right: 80px;
+      text-align: left; }
+      .contacts__form-label {
+        font-size: 20px;
+        width: 100%; }
+      .contacts__form-name {
+        background-color: #FBEBEA;
+        border-radius: 0;
+        border-bottom: 1px solid #000000;
+        opacity: 0.2;
+        color: #000000;
+        padding-left: 0;
+        padding-bottom: 0; }
+      .contacts__form-email {
+        background-color: #FBEBEA;
+        border-radius: 0;
+        border-bottom: 1px solid #000000;
+        opacity: 0.2;
+        color: #000000;
+        padding-left: 0;
+        padding-bottom: 0; }
+      .contacts__form-question {
+        background-color: #FBEBEA;
+        height: 1em;
+        border-radius: 0;
+        border-bottom: 1px solid #000000;
+        opacity: 0.2;
+        color: #000000;
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 80px; }
+    .contacts__link {
+      font-size: 20px; }
+    .contacts .contacts__social {
+      margin-top: 25px; } }
 
 .footer {
   padding: 45px 20px 5px;
