@@ -62,10 +62,18 @@ figure {
     color: #f50049; }
 
 .nav__items {
-  display: none;
   list-style: none;
   padding: 0;
   margin: 0; }
+  .nav__items--opened {
+    display: block;
+    position: absolute;
+    top: 40px;
+    box-sizing: border-box;
+    left: 0;
+    right: 0; }
+  .nav__items--closed {
+    display: none; }
 
 .nav__item {
   box-sizing: border-box;
@@ -162,14 +170,6 @@ figure {
   border: none;
   position: relative; }
 
-.nav__btn:active ~ .nav__items {
-  display: block;
-  position: absolute;
-  top: 40px;
-  box-sizing: border-box;
-  left: 0;
-  right: 0; }
-
 .btn {
   display: inline-block;
   border: none;
@@ -235,6 +235,13 @@ figure {
     margin-right: 70px; }
     .header__feature:last-child {
       width: 235px; }
+  .nav__items--opened {
+    width: 320px;
+    top: 60px;
+    left: 0;
+    display: block; }
+  .nav__items--closed {
+    display: none; }
   .feature__img {
     margin-right: 14px; }
     .feature__img--ingr {
