@@ -48,6 +48,9 @@ font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 text-decoration: none;
+&:hover {
+    color: #f50049;
+}
 }
 .footer__socials {
     display: flex;

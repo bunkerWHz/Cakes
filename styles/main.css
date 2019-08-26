@@ -56,7 +56,10 @@ figure {
   font-weight: 700;
   display: block;
   float: left;
-  margin-right: auto; }
+  margin-right: auto;
+  text-decoration: none; }
+  .main-nav__logo:hover {
+    color: #f50049; }
 
 .nav__items {
   display: none;
@@ -68,11 +71,11 @@ figure {
   box-sizing: border-box;
   text-align: center;
   display: block;
-  width: 320px;
+  margin: 0;
   height: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   background-color: #e7e7e7;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  padding: 17px 0 14px 0; }
+  padding: 10px 0 10px 0; }
 
 .nav__item-link {
   text-decoration: none;
@@ -81,6 +84,8 @@ figure {
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase; }
+  .nav__item-link:hover {
+    color: #f50049; }
 
 .hamburger {
   display: inline-block;
@@ -152,11 +157,18 @@ figure {
   box-sizing: border-box;
   width: 18px;
   height: 18px;
+  padding: 0;
   background-color: transparent;
   border: none;
   position: relative; }
-  .nav__btn:active .nav__items {
-    display: initial; }
+
+.nav__btn:active ~ .nav__items {
+  display: block;
+  position: absolute;
+  top: 40px;
+  box-sizing: border-box;
+  left: 0;
+  right: 0; }
 
 .btn {
   display: inline-block;
@@ -188,10 +200,7 @@ figure {
   .main-nav__logo {
     vertical-align: top;
     font-size: 20px;
-    margin-right: 26px;
-    text-decoration: none; }
-    .main-nav__logo:hover {
-      color: #f50049; }
+    margin-right: 26px; }
   .nav__btn {
     margin-left: 0;
     margin-right: 0; }
@@ -1588,6 +1597,12 @@ figure {
   .contacts__phone:hover {
     color: #f50049; }
 
+.contacts__email {
+  text-decoration: none;
+  color: #000; }
+  .contacts__email:hover {
+    color: #f50049; }
+
 .contacts__socials {
   list-style: none;
   text-align: left;
@@ -1734,6 +1749,8 @@ figure {
   font-size: 14px;
   font-weight: 400;
   text-decoration: none; }
+  .footer-nav__phone:hover {
+    color: #f50049; }
 
 .footer__socials {
   display: flex;
