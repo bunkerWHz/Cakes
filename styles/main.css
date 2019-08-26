@@ -1689,6 +1689,12 @@ figure {
   display: flex;
   margin-right: auto; }
 
+.logo__link {
+  text-decoration: none;
+  color: #ffffff; }
+  .logo__link:hover {
+    color: #f50049; }
+
 .footer-nav__items {
   list-style: none;
   margin: 0;
@@ -1702,6 +1708,12 @@ figure {
   font-weight: 400;
   margin-bottom: 15px; }
 
+.footer-nav__link {
+  text-decoration: none;
+  color: #ffffff; }
+  .footer-nav__link:hover {
+    color: #f50049; }
+
 .footer-nav__phone {
   color: #ffffff;
   display: flex;
@@ -1712,28 +1724,29 @@ figure {
   text-decoration: none; }
 
 .footer__socials {
+  display: flex;
+  flex-direction: row;
   text-align: left;
   list-style: none;
   padding: 0;
   margin: 0;
   border-bottom: 1px solid #b6b6b6; }
 
+.footer__socials--tablet {
+  display: none; }
+
 .footer__social {
-  display: inline-block;
+  display: flex;
   margin-top: 30px;
   vertical-align: top;
   margin-right: 18px;
   margin-bottom: 40px; }
   .footer__social--inst {
     width: 23px;
-    height: 23px;
-    color: #b6b6b6;
-    background: url(/img/footer_иконка_инстаграм.png) no-repeat 50% 50%; }
+    height: 23px; }
   .footer__social--vk {
     width: 31px;
-    height: 19px;
-    color: #b6b6b6;
-    background: url(/img/footer_иконка_вконтакте.png) no-repeat 50% 50%; }
+    height: 19px; }
 
 .footer__copyrights {
   text-align: left;
@@ -1746,14 +1759,40 @@ figure {
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 35px 20px 10px; }
+    padding: 0 35px 10px; }
     .footer-nav__logo {
       font-size: 18px;
       margin-right: 60px;
-      display: inline-block; }
+      margin-bottom: 0;
+      display: flex;
+      float: left;
+      height: 74px;
+      align-items: center; }
     .footer-nav__items {
+      height: 92px;
       display: flex;
       flex-direction: row;
-      justify-content: space-between; }
+      justify-content: space-between;
+      align-items: center; }
+      .footer-nav__items-nav__item {
+        align-self: baseline; }
     .footer-nav__phone {
-      display: none; } }
+      display: none; }
+    .footer-nav__nav {
+      border-bottom: 1px solid #b6b6b6;
+      height: 92px;
+      margin-bottom: 14px; }
+    .footer__copyrights {
+      display: inline-block;
+      margin-right: 33px; }
+    .footer__socials {
+      display: none; }
+      .footer__socials--tablet {
+        border-bottom: none;
+        display: flex; }
+    .footer__social {
+      margin: 0;
+      margin-right: 19px; }
+    .footer__wrapper {
+      display: flex;
+      justify-content: center; } }
