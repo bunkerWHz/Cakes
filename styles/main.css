@@ -1757,9 +1757,15 @@ figure {
   font-weight: 400;
   margin: 5px 0 0; }
 
+.footer__nav-wrapper {
+  display: flex;
+  flex-direction: column; }
+
 @media screen and (min-width: 768px) {
   .footer {
     padding: 0 35px 10px; }
+    .footer__nav-wrapper {
+      flex-direction: row; }
     .footer-nav__logo {
       font-size: 18px;
       margin-right: 60px;
@@ -1779,6 +1785,7 @@ figure {
     .footer-nav__phone {
       display: none; }
     .footer-nav__nav {
+      flex-grow: 2;
       border-bottom: 1px solid #b6b6b6;
       height: 92px;
       margin-bottom: 14px; }
@@ -1796,3 +1803,36 @@ figure {
     .footer__wrapper {
       display: flex;
       justify-content: center; } }
+
+@media screen and (min-width: 1366px) {
+  .footer {
+    background-color: #e8e8e8; }
+    .footer__socials {
+      align-items: center;
+      display: flex;
+      border-bottom: none; }
+      .footer__socials--tablet {
+        display: none; }
+    .footer__copyrights {
+      opacity: 0.5;
+      color: #000000;
+      font-family: "Roboto";
+      font-size: 12px; }
+    .footer-nav__item {
+      margin-bottom: 0;
+      margin-right: 44px; }
+    .footer-nav__nav {
+      border-bottom: none;
+      margin-bottom: 0; }
+  .footer-nav__link {
+    color: #2d2829;
+    font-size: 16px; }
+  .footer__nav-wrapper {
+    flex-direction: row;
+    justify-content: space-between; }
+  .footer__wrapper {
+    border-top: 1px solid #b6b6b6;
+    padding: 20px 0px; }
+  .logo__link {
+    color: #2d2829;
+    font-size: 28px; } }
