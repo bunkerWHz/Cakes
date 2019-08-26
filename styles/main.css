@@ -188,7 +188,10 @@ figure {
   .main-nav__logo {
     vertical-align: top;
     font-size: 20px;
-    margin-right: 26px; }
+    margin-right: 26px;
+    text-decoration: none; }
+    .main-nav__logo:hover {
+      color: #f50049; }
   .nav__btn {
     margin-left: 0;
     margin-right: 0; }
@@ -201,6 +204,8 @@ figure {
     font-size: 15px;
     font-weight: 700;
     vertical-align: top; }
+    .main-nav__phone:hover {
+      color: #f50049; }
   .header__title {
     font-size: 60px;
     text-align: left;
@@ -1575,6 +1580,12 @@ figure {
   font-family: "Circe";
   font-size: 14px;
   font-weight: 600; }
+
+.contacts__phone {
+  text-decoration: none;
+  color: #000; }
+  .contacts__phone:hover {
+    color: #f50049; }
 
 .contacts__socials {
   list-style: none;

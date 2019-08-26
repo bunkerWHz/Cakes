@@ -73,6 +73,13 @@ font-family: "Circe";
 font-size: 14px;
 font-weight: 600;
 }
+.contacts__phone{
+    text-decoration: none; 
+    color: #000; 
+    &:hover {
+        color: #f50049;
+    }
+}
 .contacts__socials {
     list-style: none;
     text-align: left;
