@@ -1,15 +1,16 @@
 .products {
     background-color: #fbebea;
     padding: 0 20px;
+    padding-top: 30px;
 }
 
 .products__title {
     text-align: center;
     color: #2d2829;
     font-family: "Playfair Display";
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
 
 .products__desc {
@@ -44,26 +45,29 @@
 .card__link {
     text-decoration: none;
 }
-
+.card__desc {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
 .card__title {
+    display: block;
+    text-align: left;
     color: #2d2829;
     font-family: "Circe";
     font-size: 14px;
     font-weight: 400;
-    position: absolute;
-    top: 13px;
-    left: 13px;
-}
+    margin-bottom: 2px;
 
+}
 .card__count {
-    position: absolute;
+    text-align: left;
+    display: block;
     opacity: 0.7;
     color: #2d2829;
     font-family: "Circe";
     font-size: 12px;
     font-weight: 400;
-    top: 31px;
-    left: 13px;
 }
 
 @media screen and (min-width: 768px) {

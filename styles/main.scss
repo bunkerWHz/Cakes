@@ -10,7 +10,8 @@
       font-family: "Roboto";
       src: url(/fonts/Roboto-Regular.ttf)
   }
-@import "norm.css";
+  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic');
+@import "norm.scss";
 body {
     min-width: 320px;
 padding: 0;

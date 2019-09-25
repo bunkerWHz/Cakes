@@ -1,10 +1,11 @@
     .container {
-        min-width: 280px;
+        width: 280px;
     }
 
     .personal-order {
         background-color: #fbebea;
-        margin-bottom: 38px;
+        padding-top: 20px;
+    
     }
 
     .personal-order__title {
@@ -13,9 +14,15 @@
         font-family: "Playfair Display";
         font-size: 24px;
         font-weight: 700;
-        margin-bottom: 15px;
+        margin-bottom: 7px;
+        line-height: 29px;
     }
-
+.slider {
+    display: flex;
+    flex-direction: row;
+    height: 293px;
+    width: 241px;
+}
     .personal-order__desc {
         text-align: center;
         color: #32313d;
@@ -26,25 +33,30 @@
         margin-bottom: 19px;
     }
 
-    .builder-item {
-        min-height: 430px;
+    .builder__item {
+        height: 430px;
+        width: 280px;
         background-color: #fff;
+        padding-bottom: 26px;
     }
 
     .builder__wrapper {
         background-color: #fff;
         margin: 0 auto;
-        padding-top: 15px;
+        padding-top: 6px;
         padding-left: 19px;
         padding-right: 19px;
     }
-
+    .builder__details {
+        text-align: left;
+    }
     .wrapper__order {
         color: #f50049;
         font-family: "Playfair Display";
         font-size: 30px;
         font-weight: 700;
         display: inline-block;
+        margin-right: 7px;
     }
 
     .wrapper__title {
@@ -123,6 +135,9 @@
         margin: 0 auto;
         margin-top: 23px;
         margin-bottom: 26px;
+        align-self: flex-end;
+        height: 51px;
+        margin:0 auto;
     }
 
     .insides {
@@ -187,8 +202,8 @@
         }
 
         .personal-order-item {
-
-            height: 239px;
+            background-color: #fbebea;
+                        height: 239px;
             width: 210px;
             margin: 0;
             margin-right: 25px;

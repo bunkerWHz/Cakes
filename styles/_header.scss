@@ -3,8 +3,8 @@
         padding: 40px 20px 0;
         background: url(/img/фото_торта.png) no-repeat;
         background-color: #fbebea;
-        background-position-y: -166px;
-        background-position-x: 50%;
+        background-position-y: -165px;
+        background-position-x: 42%;
         position: relative;
 }
 .container {
@@ -96,18 +96,25 @@ color: #2d2829;
 font-family: "Playfair Display";
 font-size: 40px;
 font-weight: 700;
+margin-top: 127px;
+line-height: 37px;
+letter-spacing: 3px;
+margin-bottom: 18px;
 }
 .header__desc {
 text-align: center;
+margin-top: 0;
 color: #32313d;
 font-family: "Intro Script R - H2 Base";
 font-size: 22px;
 font-weight: 400;
+margin-bottom: 20px;
 }
 .header__features {
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
 .feature__text {
 color: #000000;
@@ -115,12 +122,17 @@ font-family: "Circe";
 font-size: 14px;
 font-weight: 400;
 vertical-align: top;
+line-height: 17px;
 }
 .header__feature{
+    width: 250px;
     text-align: left;
     height: 33px;
     box-sizing: border-box;
     margin-bottom: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     &:last-child {
         margin-bottom: 42px;
     }
@@ -136,7 +148,7 @@ vertical-align: top;
 .feature__img--gift {
     display: block;
     float: left;
-width: 33px;
+width: 48px;
 height: 32px;
 background: url(/img/иконка_доставка.svg);
 margin-right: 10px;
@@ -166,7 +178,7 @@ font-family: "Circe";
 font-size: 13px;
 font-weight: 400;
 text-transform: uppercase;
-padding: 21px 65px;
+padding: 18px 65px;
 height: auto;
 width: auto;
 &:hover {
